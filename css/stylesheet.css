@@ -1,3 +1,23 @@
+.header {
+    background-color:#1600A6;
+    padding:3% 25px 3% 25px;
+    border-radius: 15px;
+}
+
 h1 {
-    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#F6C900;
+}
+
+.list {
+    font-family: 'Crimson Text', serif;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    background-color:#1600A6;
+    padding:3% 25px 3% 25px;
+    border-radius: 15px;
 }
