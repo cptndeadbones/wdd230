@@ -1,1 +1,1 @@
-console.log("this is a test print out.");
+document.write("I like cheese. ");
