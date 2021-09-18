@@ -10,6 +10,12 @@ h1 {
     color:#F6C900;
 }
 
+.menuTitle {
+    border-bottom-color:#0E0066;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
 .list {
     font-family: 'Crimson Text', serif;
 }
@@ -20,4 +26,8 @@ h1 {
     background-color:#1600A6;
     padding:3% 25px 3% 25px;
     border-radius: 15px;
+}
+
+.footer a{
+    color:#F6C900;
 }
