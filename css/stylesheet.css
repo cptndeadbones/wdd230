@@ -4,10 +4,22 @@
     border-radius: 15px;
 }
 
+.header img {
+    margin-top: -6%;
+    width:150px;
+    float:right;
+
+    box-shadow: 8px 8px 20px #a5a5a5;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color:#F6C900;
+}
+
+.bodyJustify {
+    margin-left:3%;
 }
 
 .menuTitle {
