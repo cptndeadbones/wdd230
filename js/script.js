@@ -1,1 +1,4 @@
-document.write("I like cheese. ");
+let d = new Date();
+let year = d.getFullYear();
+
+document.getElementById("currentYear").textContent = year;
