@@ -40,6 +40,10 @@ h1 {
     border-radius: 15px;
 }
 
-.footer a{
+.footer a {
     color:#F6C900;
+}
+
+.yellowUpdate {
+    color: #F6C900;
 }
