@@ -1,14 +1,11 @@
 .header {
     background-color:#1600A6;
     padding:3% 25px 3% 25px;
-    border-radius: 15px;
 }
 
 .header img {
     margin-top: -6%;
     width:150px;
-    float:right;
-
     box-shadow: 8px 8px 20px #a5a5a5;
 }
 
@@ -37,7 +34,6 @@ h1 {
     color: #fff;
     background-color:#1600A6;
     padding:3% 25px 3% 25px;
-    border-radius: 15px;
 }
 
 .footer a {
