@@ -1,0 +1,18 @@
+header {
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap:5%;
+}
+
+.card {
+    background-color:#ececec;
+    text-align: center;
+    border-radius: 15px;
+}
