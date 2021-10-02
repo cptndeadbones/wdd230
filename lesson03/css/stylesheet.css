@@ -68,6 +68,14 @@ ul {
     padding: 25px;
 }
 
+#purpose h2 {
+    padding-right:25px;    
+}
+
+#purpose p {
+    text-align:left;
+}
+
 #websiteUrl {
     display:flex;
     margin-left:20%;
@@ -88,18 +96,39 @@ ul {
     padding-left: 25px;
 }
 
+
 #targetHeader {
     text-align:center;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end:1;
-    background-color:red;
 }
 
-#grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
+#persona1 {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:80%;
+}
+
+#persona1 h3 {
+    width: 100%;
+}
+
+#persona1 p {
+    text-align: left;
+}
+
+#persona2 {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:80%;
+}
+
+#persona2 h3{
+    width: 78%;
+}
+
+#persona2 p {
+    text-align: left;
 }
 
 
