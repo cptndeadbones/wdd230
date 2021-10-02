@@ -1,3 +1,6 @@
+/****************************************
+Google fonts CSS
+*****************************************/
 h1 {
     font-family: 'Kanit', sans-serif;
 }
@@ -14,6 +17,9 @@ p {
     font-family: 'Trykker', serif;
 }
 
+/************************************
+* navigation CSS
+************************************/
 header a img {
     width:100px;
 }
@@ -21,9 +27,9 @@ header a img {
 nav {
     text-align: center;
     background-color: #2173a6;
-    border-radius:25px;
-    width:75%;
+    width:80%;
     margin:auto;
+    text-decoration: none;
 }
 nav ul li {
     display: inline-flex;
@@ -33,4 +39,75 @@ nav ul li {
     font-size: 0.95rem;
     font-family:'Kanit', sans-serif;
     font-weight: 600;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#f2b66d;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+
+ul {
+    margin:0;
+}
+
+/****************************************
+* lesson 03 index CSS
+*****************************************/
+#purpose {
+    margin-left:20%;
+    margin-right:20%;
+}
+.purpose {
+    display:flex;
+}
+
+#websiteUrl {
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#websiteUrl p {
+    padding-left:25px;
+}
+
+#logo {
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#logo img {
+    padding-left: 25px;
+}
+
+section {
+    background-color:;
+    padding: 25px;
+}
+
+/**************************************
+* footer CSS
+***************************************/
+.footer {
+    width:80%;
+    margin:auto;
+    text-align: center;
+    color: #fff;
+    background-color:#2173a6;
+    padding:3% 25px 3% 25px;
+}
+
+.footer a {
+    color:#F6C900;
+}
+
+.yellowUpdate {
+    color: #F6C900;
 }
