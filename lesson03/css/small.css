@@ -9,8 +9,47 @@
         font-weight: 600;
     }
 
-    .purpose {
-        display:block;
+    .align {
+        flex-direction: column;
     }
+
+    .purpose {
+        flex-direction: column;
+    }
+
+    #websiteUrl {
+        flex-direction: column;
+    }
+
+    #logo {
+        flex-direction: column;
+    }
+    
+    /*******************
+    target audience
+    ********************/
+    #persona1 {
+    flex-direction: column;
+    }
+
+    #persona2 {
+    flex-direction: column;
+    }
+
+    /**************************************
+    color scheme page
+    **************************************/
+    .color-scheme {
+    flex-direction: column;
+    }
+
+
+    /**************************************
+    Typography page
+    **************************************/
+    #typePage {
+        flex-direction: column;
+    }
+    
 
 }
