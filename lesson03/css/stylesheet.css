@@ -175,6 +175,51 @@ color scheme page
     color:#000000;
 }
 
+
+/**************************************
+Typography page
+**************************************/
+#typeHeader {
+    font-size: 2em;
+}
+
+#typePage {
+    display: inline-flex;
+}
+
+#typography {
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+#typography h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+}
+
+#subheader {
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+#subHeader h3 {
+    font-family: 'Rokkitt', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#bodyCopy {
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+#bodyCopy h3 {
+    font-family: 'Trykker', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
 /**************************************
 * footer CSS
 ***************************************/
