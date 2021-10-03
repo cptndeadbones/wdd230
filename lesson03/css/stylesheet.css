@@ -96,7 +96,9 @@ ul {
     padding-left: 25px;
 }
 
-
+/*****************************
+Target audience page
+*****************************/
 #targetHeader {
     text-align:center;
 }
@@ -131,6 +133,47 @@ ul {
     text-align: left;
 }
 
+/**************************************
+color scheme page
+**************************************/
+.color-scheme {
+    display: inline-flex;
+}
+
+.inline {
+    margin-left:20px;
+    margin-right:20px;   
+}
+
+.border {
+    padding:15px;
+}
+
+#color1 {
+    background-color:#1B72BF;
+    color:#ffffff;
+}
+
+#color2 {
+    background-color:#348ABF;
+    color:#ffffff;
+}
+
+#color3 {
+    background-color: #7EBFD9;
+    color:#000000;
+    border-style: none;
+}
+
+#color4 {
+    background-color:#F2D377;
+    color:#000000;
+}
+
+#color5 {
+    background-color: #F2B263;
+    color:#000000;
+}
 
 /**************************************
 * footer CSS
