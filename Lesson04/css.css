@@ -21,15 +21,14 @@ p {
 /************************************
 * navigation CSS
 ************************************/
-header a img {
-    width:100px;
-}
-
 nav {
     text-align: center;
     background-color: #2173a6;
     margin:auto;
     text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 nav ul li {
     display: inline-flex;
