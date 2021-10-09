@@ -30,6 +30,10 @@ nav {
     text-align: center;
     justify-content: center;
 }
+
+nav h4 {
+    margin-top: -20px;
+}
 nav ul li {
     display: inline-flex;
     text-align: center;
@@ -38,10 +42,6 @@ nav ul li {
     font-size: 0.95rem;
     font-family:'Kanit', sans-serif;
     font-weight: 600;
-}
-
-nav ul li h4 {
-    margin-top: -20px;
 }
 
 nav ul li a {
