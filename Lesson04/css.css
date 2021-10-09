@@ -41,6 +41,10 @@ nav ul li {
     font-weight: 600;
 }
 
+nav ul li h4 {
+    margin-top: -20px;
+}
+
 nav ul li a {
     text-decoration: none;
     color:#f2b66d;
@@ -50,15 +54,63 @@ nav ul li a {
     text-align:center;
 }
 
-.articles{
-    background-color: blue;
-    color:#ffffff;
-    padding:1em;
+.section-title{
+    color: #000000;
+    font-size: 1.5em;
+}
+
+
+/***************************************
+Hero
+***************************************/
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.5)), url(/wdd230/Lesson04/images/Perrigan\ photography.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+
+
+/**************************************
+five day forcast
+**************************************/
+section {
+    background-color: #7EBFD9;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: Kanit, sans-serif;
+}
+
+.fiveDay ul {
+    display: flex;
+    flex-direction: row;
 }
 
 .fiveDay li{
     list-style: none;
+    margin:auto;
 }
+
+.fiveDay li img {
+    width: 100px;
+}
+
+.weatherTile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/**************************************
+Articles / News 
+**************************************/
 
 .footer {
     margin:auto;
