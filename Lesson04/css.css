@@ -71,6 +71,12 @@ Hero
     height: 250px;
 }
 
+.hero ul {
+    list-style: none;
+    background-color: #ffffff;
+    padding: 2em;
+    width:15%;
+}
 
 /**************************************
 five day forcast
@@ -111,13 +117,50 @@ section {
 /**************************************
 Articles / News 
 **************************************/
+.articles img {
+    width: 280px;
+    float: right;
+    padding-left:15px;
+}
+
+.articles h3 {
+    font-size: 1.3em;
+}
+
+
+/***************************************
+Contact
+***************************************/
+.contact {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.contact img {
+    width:300px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.column2 {
+    display:flex;
+    flex-direction: column;
+}
+
+
+.social img {
+    width:75px;
+}
 
 .footer {
     margin:auto;
     text-align: center;
     color: #fff;
     background-color:#2173a6;
-    padding:3% 25px 3% 25px;
+    padding:1% 25px 1% 25px;
 }
 
 .footer a {
