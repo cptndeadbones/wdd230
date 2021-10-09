@@ -15,6 +15,7 @@ h3 {
 
 p {
     font-family: 'Trykker', serif;
+    font-size: 16px;
 }
 
 /************************************
@@ -45,6 +46,19 @@ nav ul li a {
     color:#f2b66d;
 }
 
+#title{
+    text-align:center;
+}
+
+.articles{
+    background-color: blue;
+    color:#ffffff;
+    padding:1em;
+}
+
+.fiveDay li{
+    list-style: none;
+}
 
 .footer {
     margin:auto;
