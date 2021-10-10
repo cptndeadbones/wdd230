@@ -9,3 +9,12 @@ document.getElementById("lastUpdated").innerHTML= updated;
 /************************************************************
  * Responsive hamburger menu
  ***********************************************************/
+function toggleMenu() {
+    document.getElementById('patty').classList.toggle('hide');
+}
+/************************************************************
+ * Current Date output.
+ **********************************************************/
+let date = new Date ();
+
+document.getElementById("currentDate").innerHTML = date.toDateString();

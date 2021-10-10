@@ -10,10 +10,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="/wdd230/Lesson04/css.css">
-        <link rel="stylesheet" href="#">
-        <link rel="stylesheet" href="#">
-        <link rel="stylesheet" href="#">
+        <link rel="stylesheet" href="/wdd230/Lesson04/css/css.css">
+        <link rel="stylesheet" href="/wdd230/Lesson04/css/large.css">
+        <link rel="stylesheet" href="/wdd230/Lesson04/css/medium.css">
+        <link rel="stylesheet" href="/wdd230/Lesson04/css/small.css">
 
         
         
@@ -24,14 +24,15 @@
             <a href="/wdd230/index.html"><img src="/wdd230/images/NimbusWeatherLogo.png" alt="Nimbus weather site logo."></a>
             <div ><h1>Nimbus Weather</h1>
             <h4>Surprisingly sunny today.</h4></div>
-        <ul>
-            <li><a href="https://cptndeadbones.github.io/wdd230/">Home</a></li>
-            <li><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
+            <button class="hide" onclick="toggleMenu()">&#9776;</button>
+            <ul id="patty" class="hamburger">
+                <li><a href="https://cptndeadbones.github.io/wdd230/">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -109,6 +110,7 @@
         </main>
 
         <footer class="footer">
+            <span id="currentDate"></span>
             <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a href="https://byui.instructure.com/">BYUI Online Learning</a></p>
             <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p> 
         </footer>
