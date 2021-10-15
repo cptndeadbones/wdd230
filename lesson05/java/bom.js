@@ -13,12 +13,12 @@
         listItem.appendChild(listText);
         listText.textContent = myItem;
         listItem.appendChild(listBtn);
-        listBtn.textContent = 'Delete';
+        listBtn.textContent = '❌';
         list.appendChild(listItem);
 
         listBtn.onclick = function(e) {
           list.removeChild(listItem);
         }
 
-        input.focus();
+        listBtn.focus();
       }
