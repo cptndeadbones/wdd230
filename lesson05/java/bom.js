@@ -19,9 +19,6 @@
         listBtn.onclick = function(e) {
           list.removeChild(listItem);
         }
-/****************
- * focuses the last list item added to list
- * for easy removal. 
- ***************/
-        listBtn.focus();
+
+        input.focus();
       }
