@@ -229,6 +229,14 @@ Contact
     justify-content: space-evenly;
 }
 
+.contact a {
+    width:auto;
+}
+
+.contact img {
+    border-radius: 5px;
+}
+
 .contact img {
     width:300px;
 }
