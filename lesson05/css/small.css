@@ -3,6 +3,11 @@
         display:block;
     }
 
+    nav button {
+        width:100%;
+        background-color: #2173a6;
+    }
+
     .hamburger li {
         display: block;
     }
