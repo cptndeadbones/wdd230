@@ -1,7 +1,9 @@
 const day = new Date();
 
+function breakfast(){
+  
+  if (day.getDay() == 6){
+      document.getElementsById("test").classList.add("syrup");
 
-function event() {
-    var element = document.getElementsByClassName("pancakes");
-    element.classList.add("syrup");
-  }
+}
+}
