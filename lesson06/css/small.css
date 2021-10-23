@@ -1,0 +1,32 @@
+@media only screen and (max-width: 500px) {
+    nav {
+        display:block;
+    }
+
+    nav button {
+        width:100%;
+        background-color: #2173a6;
+    }
+
+    .hamburger li {
+        display: block;
+    }
+
+    nav ul {
+        padding:0px
+    }
+
+    .hero ul {
+        width:80%;
+    }
+
+    .fiveDay ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        display:block;
+    }
+
+}
