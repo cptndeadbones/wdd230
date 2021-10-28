@@ -245,6 +245,10 @@ Articles / News
     font-size: 1.3em;
 }
 
+.articles p {
+    line: height 1.3em;
+}
+
 
 /***************************************
 Contact
