@@ -1,0 +1,17 @@
+body {
+    background-color:#000000;
+}
+
+h1 {
+    text-align:center;
+    color:#ffffff;
+    font-size: 62px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+img {
+    width:400px;
+    height:300px;
+    display:block;
+    margin: auto;
+}
