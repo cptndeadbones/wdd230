@@ -17,23 +17,6 @@ p {
     font-family: 'Trykker', serif;
     font-size: 16px;
 }
-/************************************
-* Pancakes in the park special announcment.
-************************************/
-.pancakes {
-    background-color: #f2b66d;
-    width:100%;
-    text-align: center;
-    font-weight: 500;
-}
-
-.pancakes p {
-    font-size: 18px;
-}
-
-.syrup {
-    background-color:red !important;
-}
 
 
 /************************************
@@ -172,117 +155,20 @@ Hamburger
     font-size: 1.5em;
 }
 
-
-/***************************************
-Hero
-***************************************/
-.hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.5)), url(/wdd230/Lesson04/images/Perrigan\ photography.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: auto;
-}
-
-.hero ul {
-    list-style: none;
-    background-color: #ffffff;
-    margin: 1em;
-    width: 15%;
-    padding: 1em;
-}
-
-.float-right {
-    float:right;
-}
-
 /**************************************
-five day forcast
+main gallery section
 **************************************/
-section {
-    background-color: #7EBFD9;
-    width: 80%;
-    margin: auto;
-    padding: 1em;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    font-family: Kanit, sans-serif;
+.title {
+    margin-left: 10%;;
 }
 
-.fiveDay ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.fiveDay li{
-    list-style: none;
-    margin:auto;
-}
-
-.fiveDay li img {
-    width: 100px;
-}
-
-.weatherTile {
-    display: flex;
-    flex-direction: column;
+.pictures {
     text-align: center;
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 15px;
 }
 
-/**************************************
-Articles / News 
-**************************************/
-.articles img {
-    width: 280px;
-    float: right;
-    padding-left:15px;
-}
-
-.articles h3 {
-    font-size: 1.3em;
-}
-
-.articles p {
-    line: height 1.3em;
-}
-
-
-/***************************************
-Contact
-***************************************/
-.contact {
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-}
-
-.contact a {
-    width:auto;
-}
-
-.contact img {
-    border-radius: 5px;
-}
-
-.contact img {
-    width:300px;
-}
-
-.contact ul {
-    list-style: none;
-}
-
-.column2 {
-    display:flex;
-    flex-direction: column;
-}
-
-
-.social img {
-    width:75px;
+img {
+    margin:25px;
+    box-shadow: 10px 10px 5px 1px rgba(51, 51, 51, 0.2); 
 }
 
 /***********************************
