@@ -11,17 +11,13 @@
         padding:0px;
     }
 
-    .hero ul {
-        width:80%;
-    }
-
-    .fiveDay ul {
+    section {
         display: flex;
-        flex-direction: column;
+        margin:auto;
+        justify-content: center;
     }
-
-    .contact {
-        display:block;
+    section img {
+        width: 100%;
+        
     }
-
 }

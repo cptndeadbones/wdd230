@@ -167,13 +167,9 @@ main gallery section
 }
 
 img {
-    margin:25px;
+    margin:15px;
     filter: blur(0em);
     transition: filter 1s;
-}
-
-img:hover{
-    box-shadow: 10px 10px 5px 1px rgba(51, 51, 51, 0.2); 
 }
 
 img[data-src] {
