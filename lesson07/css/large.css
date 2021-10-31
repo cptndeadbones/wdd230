@@ -10,62 +10,92 @@
     .hamburger {
         display: flex !important;
     }
+
+    main {
+        width:100%;
+    }
     img:hover{
         box-shadow: 10px 10px 5px 1px rgba(51, 51, 51, 0.2); 
     }
-
     .pictures {
-        display:grid;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .cell1 {
         width:100%;
-        grid-template-columns:1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-start:1;
+        grid-column-end:1;
+        grid-row-start: 1;
+        grid-row-end: 1;
     }
 
-    .grid-item-1 {
-        grid-column: 1 / span 1;
-        grid-row:1 / 2;
+
+    .cell2 {
+        width:100%;
+        grid-column-start:2;
+        grid-column-end:2;
+        grid-row-start: 1;
+        grid-row-end: 1;
     }
 
-    .grid-item-2 {
-        grid-column:2 / span 1;
-        grid-row:1 / 2;
-    }
-    
-    .grid-item-3 {
-        grid-column:3 / span 1;
-        grid-row:1 / 2;
+    .cell3 {
+        width:100%;
+        grid-column-start:3;
+        grid-column-end:3;
+        grid-row-start: 1;
+        grid-row-end: 1;
     }
 
-    .grid-item-4 {
-        grid-column:1 / span 1;
-        grid-row:2 / 3;
+    .cell4 {
+        width:100%;
+        grid-column-start:1;
+        grid-column-end:1;
+        grid-row-start: 2;
+        grid-row-end: 2;
     }
 
-    .grid-item-5 {
-        grid-column:2 / span 1;
-        grid-row:2 / 3;
+    .cell5 {
+        width:100%;
+        grid-column-start:2;
+        grid-column-end:2;
+        grid-row-start: 2;
+        grid-row-end: 2;
     }
 
-    .grid-item-6 {
-        grid-column:3 / span 1;
-        grid-row:2 / 3;
+    .cell6 {
+        width:100%;
+        grid-column-start:3;
+        grid-column-end:3;
+        grid-row-start: 2;
+        grid-row-end: 2;
     }
 
-    .grid-item-7 {
-        grid-column:1 / span 1;
-        grid-row:3 / 4;
+    .cell7 {
+        width:100%;
+        grid-column-start:1;
+        grid-column-end:1;
+        grid-row-start: 3;
+        grid-row-end: 3;
     }
 
-    .grid-item-8 {
-        grid-column:2 / span 1;
-        grid-row:3 / 4;
+    .cell8 {
+        width:100%;
+        grid-column-start:2;
+        grid-column-end:2;
+        grid-row-start: 3;
+        grid-row-end: 3;
     }
 
-    .grid-item-9 {
-        grid-column:3 / span 1;
-        grid-row:3 / 4;
+    .cell9 {
+        width:100%;
+        grid-column-start:3;
+        grid-column-end:3;
+        grid-row-start: 3;
+        grid-row-end: 3;
     }
-
 
 
 }    

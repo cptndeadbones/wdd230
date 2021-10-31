@@ -176,6 +176,10 @@ img[data-src] {
     filter: blur(0.2em);
   }
 
+  .pictures{
+    margin:auto;
+  }
+
 /***********************************
 JS footer
 ***********************************/
