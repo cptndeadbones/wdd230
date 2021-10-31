@@ -16,8 +16,11 @@
         padding:0px
     }
 
+    section {
+        flex-direction: column;
+    }
+    
     img {
-        display:block;
-        margin:auto;
+        margin: -15px;
     }
 }
