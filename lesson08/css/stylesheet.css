@@ -154,10 +154,24 @@ Hamburger
 }
 
 /***********************************
+Page title
+***********************************/
+.stormtitle {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***********************************
 Form 
 ***********************************/
 form {
-    text-align: center;
+    background-color:#e7ffed;
+    width:30%;
+    margin:auto;
+    padding:30px;
+}
+
+.formItem{
+    padding:10px;
 }
 
 

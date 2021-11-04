@@ -11,6 +11,7 @@
         <!-- Font family imports from Google-->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="/wdd230/lesson08/css/stylesheet.css">
         <link rel="stylesheet" href="/wdd230/lesson08/css/large.css">
@@ -43,13 +44,43 @@
 
     <body>
         <main>
-            <h1>Storm Center</h1>
-            <form>
-                <h2>Report a storm </h2>
-                <label>Name</label>
-                <input type="text" name="" required>
+            <h1 class="stormtitle">Storm Center</h1>
+            <form action="#">
+                <h2 class="stormtitle">⚡Report a storm⚡</h2>
+                <div class="formItem">
+                <label>Name: </label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Terry Tornado Chaser" required><br>
+                </div>
 
+                <div class="formItem">
+                <label>Email: </label><br>
+                <input type="email" id="email" name="email" placeholder="terrytornado@gmail.com" required><br>
+                </div>
 
+                <div class="formItem">
+                <label>Phone Number: </label><br>
+                <input type="tel" id="phone" name="phone" placeholder="1(234)-567-8910" required><br>
+                </div>
+
+                <div class="formItem">
+                <label>Zip Code: </label><br>
+                <input type="number" id="zip" name="zip" placeholder="54321" required><br>
+                </div>
+
+                <div class="formItem">
+                <label>Storm Date:</label><br>
+                <input type="date" id="date" name="date"><br>
+                </div>
+
+                <div class="formItem">
+                <label>Storm Type: </label><br>
+                <input><br><!-- Data list for drop down style selection. -->
+                </div>
+
+                <div class="formItem">
+                <label>Storm Severity: </label><br>
+                <input type="range" id="severity" name="severity" placeholder="1 to 10"><br>
+                </div>
 
             </form>
         </main>
