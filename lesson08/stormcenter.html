@@ -4,7 +4,7 @@
         <meta charset ="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         
-        <!--Preston Idaho town page title. -->
+        <!--Storm center page title. -->
         <title>Storm Center</title>
         <meta name="description" content="Form for users to input information about storms in the area.">
         
@@ -44,36 +44,41 @@
 
     <body>
         <main>
-            <h1 class="stormtitle">Storm Center</h1>
+            <h1 class="stormtitle pagetitle">Storm Center</h1>
             <form action="#">
                 <h2 class="stormtitle">⚡Report a storm⚡</h2>
                 <div class="formItem">
-                <label>Full Name: </label><br>
+                <label>Full Name: <br>
                 <input type="text" id="fullname" name="fullname" minlength="5" placeholder="Terry Tornado Chaser" required><br>
+                </label>
                 </div>
 
                 <div class="formItem">
-                <label>Email: </label><br>
+                <label>Email: <br>
                 <input type="email" id="email" name="email" placeholder="terrytornado@gmail.com" required><br>
+                </label>
                 </div>
 
                 <div class="formItem">
-                <label>Phone Number: </label><br>
+                <label>Phone Number: <br>
                 <input type="tel" id="phone" name="phone" placeholder="1(234)-567-8910" required><br>
+                </label>
                 </div>
 
                 <div class="formItem">
-                <label>Zip Code: </label><br>
+                <label>Zip Code: <br>
                 <input type="number" id="zip" name="zip" placeholder="54321" required><br>
+                </label>
                 </div>
 
                 <div class="formItem">
-                <label>Storm Date:</label><br>
+                <label>Storm Date: <br>
                 <input type="date" id="date" name="date"><br>
+                </label>
                 </div>
 
                 <div class="formItem">
-                <label>Storm Type: </label><br>
+                <label>Storm Type: <br>
                 <select id="stormType" name="stormType">
                     <option value="select one">select one</option>
                     <option value="FlashFlood">Flash Flood</option>
@@ -82,21 +87,24 @@
                     <option value="Thunderstorm">Thunderstorm</option>
                     <option value="Tornado">Tornado</option>    
                 </select><br><!-- Data list for drop down style selection. -->
+                </label>
                 </div>
 
                 <div class="formItem">
-                <label>Storm Severity: (1 to 10) </label><br>
+                <label>Storm Severity: (1 to 10) <br>
                 <input type="range" id="severity" name="severity" min="0" max="10"><br>
+                </label>
                 </div>
 
                 <div class="formItem">
-                <label>Storm Region:</label><br>
-                    <select id="stormRegion">
+                <label>Storm Region: <br>
+                    <select id="stormRegion" name="region">
                         <option value="select">Select Region</option>
                         <option value="Preston">Preston</option>
                         <option value="Soda Springs">Soda Springs</option>
                         <option value="Fish Haven">Fish Haven</option>
                     </select>
+                </label>
                 </div>
 
                 <div class="formItem">
@@ -107,7 +115,16 @@
                     <label>Maybe</label><br>
                     <input type="radio" id="no" name="inDanger" value="No">
                     <label>No</label><br>
+                </div>
 
+                <div class="formItem">
+                    <label>Storm information:<br>
+                    <textarea id="textarea" name="comments" rows="4" cols="50" placeholder="Please important storm notes for locals and first responders..."></textarea>
+                    </label>
+                </div>
+
+                <div class="formItem">
+                    <input type="submit" name="submit" value="Report a storm">
                 </div>
 
             </form>

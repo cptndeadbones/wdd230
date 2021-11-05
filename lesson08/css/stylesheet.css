@@ -160,6 +160,14 @@ Page title
     font-family: 'Montserrat', sans-serif;
 }
 
+.pagetitle {
+    width:100%;
+    text-align:center;
+    background-color:#F2B263;
+    padding:20px;
+    margin:0;
+}
+
 /***********************************
 Form 
 ***********************************/
@@ -172,6 +180,19 @@ form {
 
 .formItem{
     padding:10px;
+}
+
+/***********************************
+Thank you message.
+***********************************/
+.thankyouMsg {
+    background-color:#9eff81;
+    text-align:center;
+    padding: 2%;
+}
+
+.thankyouMsg h1 {
+    font-weight:300;
 }
 
 
