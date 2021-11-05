@@ -45,11 +45,12 @@
     <body>
         <main>
             <h1 class="stormtitle pagetitle">Storm Center</h1>
-            <form action="#">
+            <form action="https://cptndeadbones.github.io/wdd230/lesson08/thanks.html" target="https://cptndeadbones.github.io/wdd230/lesson08/thanks.html">
                 <h2 class="stormtitle">⚡Report a storm⚡</h2>
                 <div class="formItem">
                 <label>Full Name: <br>
-                <input type="text" id="fullname" name="fullname" minlength="5" placeholder="Terry Tornado Chaser" required><br>
+                (min 5 letters.)<br>
+                <input type="text" id="fullname" name="fullname" pattern="[A-Za-z ]{5,}" placeholder="Terry Tornado Chaser" required><br>
                 </label>
                 </div>
 
