@@ -1,9 +1,13 @@
 const day = new Date();
+const eggs = day.getDay();
+
+let saturdayMsg = document.querySelector(".pancakes");
+saturdayMsg.addEventListener("onload", breakfast());
 
 function breakfast(){
-  
-  if (day.getDay() == 6){
-      document.getElementsById("test").classList.add("syrup");
-
+  if (eggs == 5){
+      saturdayMsg.classList.remove("syrup");
+    }
+  else {saturdayMsg.classList.add("syrup");
 }
 }

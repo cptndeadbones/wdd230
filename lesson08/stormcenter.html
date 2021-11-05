@@ -48,8 +48,8 @@
             <form action="#">
                 <h2 class="stormtitle">⚡Report a storm⚡</h2>
                 <div class="formItem">
-                <label>Name: </label><br>
-                <input type="text" id="fullname" name="fullname" placeholder="Terry Tornado Chaser" required><br>
+                <label>Full Name: </label><br>
+                <input type="text" id="fullname" name="fullname" minlength="5" placeholder="Terry Tornado Chaser" required><br>
                 </div>
 
                 <div class="formItem">
@@ -74,12 +74,40 @@
 
                 <div class="formItem">
                 <label>Storm Type: </label><br>
-                <input><br><!-- Data list for drop down style selection. -->
+                <select id="stormType" name="stormType">
+                    <option value="select one">select one</option>
+                    <option value="FlashFlood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>    
+                </select><br><!-- Data list for drop down style selection. -->
                 </div>
 
                 <div class="formItem">
-                <label>Storm Severity: </label><br>
-                <input type="range" id="severity" name="severity" placeholder="1 to 10"><br>
+                <label>Storm Severity: (1 to 10) </label><br>
+                <input type="range" id="severity" name="severity" min="0" max="10"><br>
+                </div>
+
+                <div class="formItem">
+                <label>Storm Region:</label><br>
+                    <select id="stormRegion">
+                        <option value="select">Select Region</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </div>
+
+                <div class="formItem">
+                    <label>User in danger? </label><br>
+                    <input type="radio" id="yes" name="inDanger" value="Yes">
+                    <label>Yes</label><br>
+                    <input type="radio" id="maybe" name="inDanger" value="Maybe">
+                    <label>Maybe</label><br>
+                    <input type="radio" id="no" name="inDanger" value="No">
+                    <label>No</label><br>
+
                 </div>
 
             </form>
