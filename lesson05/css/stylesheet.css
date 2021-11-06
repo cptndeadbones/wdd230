@@ -177,7 +177,7 @@ Hamburger
 Hero
 ***************************************/
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.5)), url(/wdd230/Lesson04/images/Perrigan\ photography.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.5)), url(/wdd230/lesson05/images/perriganphotography.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
