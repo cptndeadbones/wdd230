@@ -182,6 +182,24 @@ form {
     padding:10px;
 }
 
+
+form .submitBtn{
+    background-color:#b00;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:40px;
+    padding-left:40px;
+    border-style:none;
+    border-radius: 5px;
+    color:#ffffff;
+}
+
+form .submitBtn:hover {
+    border-color: #ffffff;
+    border-style: solid;
+    box-shadow:2px 2px 5px 1px #dd0000;
+}
+
 /***********************************
 Thank you message.
 ***********************************/
