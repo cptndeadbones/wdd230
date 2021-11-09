@@ -18,6 +18,24 @@ p {
     font-size: 16px;
 }
 
+/************************************
+* Pancakes in the Park Msg 
+************************************/
+.pancakes {
+    background-color: #f2b66d;
+    width:100%;
+    text-align: center;
+    font-weight: 500; 
+}
+
+.pancakes p {
+    font-size: 18px;
+}
+
+.syrup {
+    display:none; 
+}
+
 
 /************************************
 * navigation CSS
