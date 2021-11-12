@@ -15,6 +15,19 @@ function toggleMenu() {
 /************************************************************
  * Current Date output.
  **********************************************************/
-let date = new Date ();
+function visit(){
+    let d = new Date();
+    let miliday = 8640000;
+    let visit = localStorage.getItem('initialVisit');
+    let obj = new Date(visit);
+    if (visit != ''){
+        time = ((d - obj) / miliday).toFixed(0);
+    } else {
+        time = "Looks like this is your first time here! 😎 Thats cool!";
+    }
 
-document.getElementById("currentDate").innerHTML = date.toDateString();
+document.getElementById("currentDate").innerHTML = time + " days.";
+localStorage.setItem('initialVisit',d);
+}
+
+visit();
