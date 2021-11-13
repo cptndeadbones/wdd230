@@ -29,15 +29,15 @@ fetch(homepageurl)
         anr.innerHTML = `Average Rainfall / Yr: ${city.averageRainfall}in.`;
         section.appendChild(anr);
         if (city.name == "Soda Springs") {
-            image.setAttribute('src', '/wdd230/lesson09/images/instagramicon.png'); // How do we source our own image? 
+            image.setAttribute('src', '/wdd230/lesson09/images/sodaspringshome.jpg'); // How do we source our own image? 
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
         } else if( city.name == "Fish Haven"){
-            image.setAttribute('src', '/wdd230/lesson09/images/facebookicon.png'); // How do we source our own image? 
+            image.setAttribute('src', '/wdd230/lesson09/images/fishhavenhome.jpg'); // How do we source our own image? 
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
         } else if(city.name == "Preston"){
-            image.setAttribute('src', '/wdd230/lesson09/images/facebookicon.png'); // How do we source our own image? 
+            image.setAttribute('src', '/wdd230/lesson09/images/perriganhome.jpg'); // How do we source our own image? 
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
         }
