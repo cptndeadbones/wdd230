@@ -161,6 +161,7 @@ Page title
 }
 
 .pagetitle {
+    display:none;
     width:90%;
     text-align:center;
     background-color:#80a7c2;
@@ -191,16 +192,69 @@ Hero
     border-radius:5px;
     width:20%;
     text-align: center;
-    margin:0 auto;
+    margin:-5% auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+}
 
  .hero-button:hover{
      background-color:#7d7f81;
  }
+
+ /***********************************
+Article Section
+***********************************/
+.article {
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #7EBFD9;
+    width: 90%;
+    margin:auto;
+}
+.article h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.article img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius:5px
+}
+
+.article p {
+    padding:20px;
+}
+
+/***********************************
+JS footer
+***********************************/
+.contact {
+    display: flex;
+    width:90%;
+    margin:auto;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: #8acee9;
+}
+
+.phone {
+    padding-left:20px;
+}
+
+.social {
+    width:50px;
+}
+
+.social-icons {
+    margin-left: auto;
+    padding-right:20px;
+}
 
 
 /***********************************
