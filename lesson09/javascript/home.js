@@ -20,28 +20,27 @@ fetch(homepageurl)
         //JSON import and assembly for html section.
         h2.innerHTML = `${city.name}`;
         section.appendChild(h2);
-        h3.innerHTML = `${city.motto}`;
+        h3.innerHTML = `"${city.motto}"`;
         section.appendChild(h3);
-        year.innerHTML = `Year founded: ${city.yearFounded}`;
+        year.innerHTML = `Year Founded: ${city.yearFounded}`;
         section.appendChild(year);
         population.innerHTML = `Current Pop. ${city.currentPopulation}`;
         section.appendChild(population);
         anr.innerHTML = `Average Rainfall / Yr: ${city.averageRainfall}in.`;
         section.appendChild(anr);
         if (city.name == "Soda Springs") {
-            image.setAttribute('src', '/wdd230/lesson09/images/sodaspringshome.jpg'); // How do we source our own image? 
+            image.setAttribute('src', '/wdd230/lesson09/images/sodaspringshome.jpg');
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
         } else if( city.name == "Fish Haven"){
-            image.setAttribute('src', '/wdd230/lesson09/images/fishhavenhome.jpg'); // How do we source our own image? 
+            image.setAttribute('src', '/wdd230/lesson09/images/fishhavenhome.jpg'); 
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
         } else if(city.name == "Preston"){
-            image.setAttribute('src', '/wdd230/lesson09/images/perriganhome.jpg'); // How do we source our own image? 
+            image.setAttribute('src', '/wdd230/lesson09/images/perriganhome.jpg'); 
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
         }
-
 
         document.querySelector('div.featured-towns').appendChild(section);
         }
