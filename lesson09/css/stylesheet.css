@@ -204,6 +204,10 @@ Hero
      background-color:#7d7f81;
  }
 
+ .featured-towns{
+     width:90;
+ }
+
  /***********************************
 Article Section
 ***********************************/
@@ -246,6 +250,9 @@ JS footer
 .phone {
     padding-left:20px;
 }
+
+.phone p {
+    font-family: 'Hind', sans-serif;}
 
 .social {
     width:50px;
