@@ -75,7 +75,7 @@ nav ul li a {
     color:#f2b66d;
 }
 
-.stormCenter {
+.home {
     background-color:#3b92c9;
 }
 
@@ -231,4 +231,17 @@ JS footer
 
 .yellowUpdate {
     color: #F6C900;
+}
+
+
+/***********************************
+Wire Frame Page
+***********************************/
+
+.wireframe {
+    text-align: center;
+}
+
+section{
+    margin:50px;
 }
