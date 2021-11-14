@@ -1,4 +1,8 @@
 @media only screen and (min-width: 751px) {
+    nav {
+        width: 90%;
+    }
+    
     nav button {
         display: none;
     }
@@ -9,6 +13,22 @@
 
     .hamburger {
         display: flex !important;
+    }
+
+    .featured-towns {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .featured-towns section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .featured-towns section img {
+        width:80%;
+        margin: auto;
     }
 
 }    

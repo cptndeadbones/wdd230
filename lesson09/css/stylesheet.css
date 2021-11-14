@@ -210,8 +210,6 @@ Article Section
 
  .featured-towns{
      width:90%;
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
      margin: auto;
      background-color: #8acee9;
  }
@@ -250,6 +248,7 @@ Article Section
 
 .article img {
     float: left;
+    max-width: 50%;
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 10px;
