@@ -10,6 +10,7 @@ fetch(homepageurl)
         //section and html element definition and creation.
         if (city.name == "Soda Springs" || city.name == "Fish Haven" || city.name == "Preston"){
         let section = document.createElement('section');
+        let div = document.createElement('div');
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
         let year = document.createElement('p');
@@ -19,27 +20,31 @@ fetch(homepageurl)
 
         //JSON import and assembly for html section.
         h2.innerHTML = `${city.name}`;
-        section.appendChild(h2);
+        div.appendChild(h2);
         h3.innerHTML = `"${city.motto}"`;
-        section.appendChild(h3);
+        div.appendChild(h3);
         year.innerHTML = `Year Founded: ${city.yearFounded}`;
-        section.appendChild(year);
+        div.appendChild(year);
         population.innerHTML = `Current Pop. ${city.currentPopulation}`;
-        section.appendChild(population);
+        div.appendChild(population);
         anr.innerHTML = `Average Rainfall / Yr: ${city.averageRainfall}in.`;
-        section.appendChild(anr);
+        div.appendChild(anr);
+        section.appendChild(div);
         if (city.name == "Soda Springs") {
             image.setAttribute('src', '/wdd230/lesson09/images/sodaspringshome.jpg');
             image.setAttribute('alt', `${city.name}`);
+            image.setAttribute('id', `sodasprings`);
             section.appendChild(image);
         } else if( city.name == "Fish Haven"){
             image.setAttribute('src', '/wdd230/lesson09/images/fishhavenhome.jpg'); 
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
+            image.setAttribute('id', `fishhaven`);
         } else if(city.name == "Preston"){
             image.setAttribute('src', '/wdd230/lesson09/images/perriganhome.jpg'); 
             image.setAttribute('alt', `${city.name}`);
             section.appendChild(image);
+            image.setAttribute('id', `preston`);
         }
 
         document.querySelector('div.featured-towns').appendChild(section);

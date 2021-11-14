@@ -210,7 +210,8 @@ Article Section
 
  .featured-towns{
      width:90%;
-     display: flex;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
      margin: auto;
      background-color: #8acee9;
  }
@@ -229,8 +230,7 @@ Article Section
 
 .featured-towns section h3 {
     font-size: 16px;
-    font-family: 'Kanit', sans-serif;
-    
+    font-family: 'Kanit', sans-serif;    
 }
 
  /***********************************
