@@ -204,15 +204,23 @@ Hero
      background-color:#7d7f81;
  }
 
+/***********************************
+Article Section
+***********************************/
+
  .featured-towns{
      width:90%;
      display: flex;
      margin: auto;
-     background-color: red;
+     background-color: #8acee9;
  }
 
  .featured-towns section {
+    margin: 0 auto;
+    width: auto;
     text-align: center;
+    padding: 10px;
+    background-color:#F2B263;
  }
 
  .featured-towns section h2 {
