@@ -261,7 +261,7 @@ Article Section
 }
 
 /***********************************
-JS footer
+Contact
 ***********************************/
 .contact {
     display: flex;
@@ -286,6 +286,11 @@ JS footer
 .social-icons {
     margin-left: auto;
     padding-right:20px;
+}
+
+.social-icons img {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
