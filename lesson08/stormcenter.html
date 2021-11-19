@@ -93,7 +93,19 @@
 
                 <div class="formItem">
                 <label>Storm Severity: (1 to 10) <br>
-                <input type="range" id="severity" name="severity" min="0" max="10"><br>
+                <input type="range" id="severity" list="tickmarks" step="1" name="severity" min="1" max="10" oninput="ratingvalue.innerText=this.value"><span id="ratingvalue">5</span><br>
+                <datalist id="tickmarks">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
                 </label>
                 </div>
 
@@ -137,6 +149,7 @@
             <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p> 
         </footer>
         <script src="/wdd230/lesson06/javascript/js.js"></script>
+        <script src="/wdd230/lesson08/javascript/rating.js"></script>
     </body>
 
 </html>

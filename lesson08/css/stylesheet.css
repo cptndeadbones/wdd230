@@ -200,6 +200,12 @@ form .submitBtn:hover {
     box-shadow:2px 2px 5px 1px #dd0000;
 }
 
+#ratingvalue {
+    margin-left:10px;
+    font-weight: bold;
+}
+
+
 /***********************************
 Thank you message.
 ***********************************/
