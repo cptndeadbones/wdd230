@@ -19,9 +19,7 @@
         <link rel="stylesheet" href="/wdd230/lesson05/css/small.css">
         <!-- Favicon -->
         <link rel="shortcut icon" href="/wdd230/images/favicon.png">
-        <script defer src="/wdd230/lesson05/javascript/pancakes.js"></script>
-
-        
+                
         
     </head>
 
@@ -49,11 +47,11 @@
             <section class="hero">
                <ul>
                     <h3>Current Weather</h3>
-                    <div><li>Currently:</li> <li class="float-right">72&deg;</li></div>
-                    <div><li>High:</li>     <li class="float-right">7 knts</li></div>
-                    <div><li>Wind Chill:</li>     <li class="float-right">35%</li></div>
-                    <div><li>Humidity:</li>    <li class="float-right">76&deg;</li></div>
-                    <div><li>Wind Speed:</li><li class="float-right"> 10,000ft</li></div>
+                    <div><li>Currently:</li>    <li class="float-right"><span id="current"></span></li></div>
+                    <div><li>High:</li>         <li class="float-right"><span id="high"></span>&deg;F</li></div>
+                    <div><li>Humidity:</li>     <li class="float-right"><span id="humidity"></span></li></div>
+                    <div><li>Wind Speed:</li>   <li class="float-right"><span id="wind-speed"></span>mph</li></div>
+                    <div><li>Wind Chill:</li>   <li class="float-right"><span id="wind-chill"></span>&deg;F</li></div>
                 </ul>
             </section>
             
@@ -123,6 +121,7 @@
             <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p> 
         </footer>
         <script src="/wdd230/lesson06/javascript/js.js"></script>
+        <script src="/wdd230/lesson10/javascript/prestonweather.js"></script>
     </body>
 
 </html>
