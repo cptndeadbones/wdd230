@@ -1,4 +1,4 @@
-const weatherapi = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=56f32390d192e8a8ff885303329930ca";
+const weatherapi = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=56f32390d192e8a8ff885303329930ca";
 fetch(weatherapi)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -22,7 +22,7 @@ fetch(weatherapi)
     windChill();
 });
 
-    const forecastapi = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=56f32390d192e8a8ff885303329930ca";
+    const forecastapi = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=56f32390d192e8a8ff885303329930ca";
     fetch(forecastapi)
         .then((response) => {
             if (!response.ok) {
