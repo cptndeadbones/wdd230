@@ -35,7 +35,7 @@ fetch(weatherapi)
             let day = 1; 
             sixpm.forEach(evening => {
                 let date = new Date(evening.dt_txt);
-                const imagesrc = "http://openweathermap.org/img/w/" + evening.weather[0].icon + '.png';
+                const imagesrc = "https://openweathermap.org/img/w/" + evening.weather[0].icon + '.png';
                 const desc = evening.weather[0].description;
                 const weekdays = [
                     "Sun",
