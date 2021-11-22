@@ -184,14 +184,14 @@ form {
 
 
 form .submitBtn{
-    background-color:#b00;
+    background-color:#b00 !important;
     padding-top:5px;
     padding-bottom:5px;
     padding-right:40px;
     padding-left:40px;
     border-style:none;
     border-radius: 5px;
-    color:#ffffff;
+    color:#ffffff !important;
 }
 
 form .submitBtn:hover {
@@ -237,4 +237,20 @@ JS footer
 
 .yellowUpdate {
     color: #F6C900;
+}
+
+/***********************************
+Input validation.
+***********************************/
+input:invalid {
+	background-color: #fdd;
+	color: #000;
+}
+input:valid {
+	background-color: #dfd;
+	color: #000;
+}
+input[type="radio"], input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
 }
