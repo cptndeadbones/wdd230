@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <!--Storm center page title. -->
+        <title>Storm Center</title>
+        <meta name="description" content="Form for users to input information about storms in the area.">
+        
+        <!-- Font family imports from Google-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/stylesheet.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/large.css">
+        <link rel="stylesheet" href="#">
+        <link rel="stylesheet" href="#">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/wdd230/images/favicon.png">
+
+        
+        
+    </head>
+
+    <header>
+        <nav>
+            <a href="/wdd230/index.html"><img src="/wdd230/images/nimbuslogo.png" alt="Nimbus weather site logo."></a>
+            <div class="tagline"><h1>Nimbus Weather</h1>
+            <h4>Surprisingly sunny today.</h4></div>
+            <button class="hide" onclick="toggleMenu()">&#9776;</button>
+            <ul id="patty" class="hamburger ">
+                <li><a href="https://cptndeadbones.github.io/wdd230/">Home</a></li>
+                <li><a href="/wdd230/lesson05/Preston-5.html">Preston</a></li>
+                <li><a href="/wdd230/lesson05/SodaSprings.html">Soda Springs</a></li>
+                <li><a href="/wdd230/lesson05/FishHaven.html">Fish Haven</a></li>
+                <li class="stormCenter"><a href="/wdd230/lesson08/stormcenter.html">Storm Center</a></li>
+                <li><a href="/wdd230/lesson05/Gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <body>
+        <main>
+            <div class="thankyouMsg">
+            <h1>"That was fast as lightning ⚡"</h1>
+            <h3>Thank you for reporting a storm. </h3>
+            <p>Storm reports help keep first responders and members of the community safe from extreme weather events.</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <span id="currentDate"></span>
+            <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a href="https://byui.instructure.com/">BYUI Online Learning</a></p>
+            <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p> 
+        </footer>
+        <script src="/wdd230/lesson06/javascript/js.js"></script>
+    </body>
+
+</html>

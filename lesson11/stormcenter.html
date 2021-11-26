@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <!--Storm center page title. -->
+        <title>Storm Center</title>
+        <meta name="description" content="Form for users to input information about storms in the area.">
+        
+        <!-- Font family imports from Google-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/stylesheet.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/large.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/medium.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/small.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/wdd230/images/favicon.png">
+
+        
+        
+    </head>
+
+    <header>
+        <nav>
+            <a href="/wdd230/index.html"><img src="/wdd230/images/nimbuslogo.png" alt="Nimbus weather site logo."></a>
+            <div class="tagline"><h1>Nimbus Weather</h1>
+            <h4>Surprisingly sunny today.</h4></div>
+            <button class="hide" onclick="toggleMenu()">&#9776;</button>
+            <ul id="patty" class="hamburger ">
+                <li><a href="/wdd230/lesson11/index.html">Home</a></li>
+                <li><a href="/wdd230/lesson11/preston.html">Preston</a></li>
+                <li><a href="/wdd230/lesson11/sodasprings.html">Soda Springs</a></li>
+                <li><a href="/wdd230/lesson11/fishhaven.html">Fish Haven</a></li>
+                <li class="stormCenter"><a href="/wdd230/lesson11/stormcenter.html">Storm Center</a></li>
+                <li><a href="/wdd230/lesson11/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <body>
+        <main>
+            <h1 class="stormtitle pagetitle">Storm Center</h1>
+            <form methood="get" action="https://cptndeadbones.github.io/wdd230/lesson08/thanks.html">
+                <h2 class="stormtitle">⚡Report a storm⚡</h2>
+                <div class="formItem">
+                <label>Full Name: <br>
+                (min 5 letters.)<br>
+                <input type="text" id="fullname" name="fullname" pattern="[A-Za-z ]{5,}" placeholder="Terry Tornado Chaser" required><br>
+                </label>
+                </div>
+
+                <div class="formItem">
+                <label>Email: <br>
+                <input type="email" id="email" name="email" placeholder="terrytornado@gmail.com" required><br>
+                </label>
+                </div>
+
+                <div class="formItem">
+                <label>Phone Number: <br>
+                <input type="tel" id="phone" name="phone" placeholder="1(234)-567-8910" required><br>
+                </label>
+                </div>
+
+                <div class="formItem">
+                <label>Zip Code: <br>
+                <input type="number" id="zip" name="zip" placeholder="54321" required><br>
+                </label>
+                </div>
+
+                <div class="formItem">
+                <label>Storm Date: <br>
+                <input type="date" id="date" name="date"><br>
+                </label>
+                </div>
+
+                <div class="formItem">
+                <label>Storm Type: <br>
+                <select id="stormType" name="stormType">
+                    <option value="select one">select one</option>
+                    <option value="FlashFlood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>    
+                </select><br><!-- Data list for drop down style selection. -->
+                </label>
+                </div>
+
+                <div class="formItem">
+                <label>Storm Severity: (1 to 10) <br>
+                <input type="range" id="severity" list="tickmarks" step="1" name="severity" min="1" max="10" oninput="ratingvalue.innerText=this.value"><span id="ratingvalue">5</span><br>
+                <datalist id="tickmarks">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                </label>
+                </div>
+
+                <div class="formItem">
+                <label>Storm Region: <br>
+                    <select id="stormRegion" name="region">
+                        <option value="select" selected disabled>Select Region</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+                </div>
+
+                <div class="formItem">
+                    <label>User in danger?</label><br>
+                    <input type="radio" id="yes" name="inDanger" value="Yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="maybe" name="inDanger" value="Maybe">
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" id="no" name="inDanger" value="No">
+                    <label for="no">No</label><br>
+                </div>
+
+                <div class="formItem">
+                    <label>Storm information:<br>
+                    <textarea id="textarea" name="comments" rows="4" cols="30" placeholder="Please important storm notes for locals and first responders..."></textarea>
+                    </label>
+                </div>
+
+                <div class="formItem">
+                    <input type="submit" class="submitBtn" name="submit" value="Report a storm">
+                </div>
+
+            </form>
+        </main>
+
+        <footer class="footer">
+            <span id="currentDate"></span>
+            <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a href="https://byui.instructure.com/">BYUI Online Learning</a></p>
+            <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p> 
+        </footer>
+        <script src="/wdd230/lesson06/javascript/js.js"></script>
+        <script src="/wdd230/lesson08/javascript/rating.js"></script>
+    </body>
+
+</html>
