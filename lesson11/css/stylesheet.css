@@ -252,6 +252,8 @@ Article Section
 ***********************************/
 .article {
     padding-top:20px;
+    padding-left:0px;
+    padding-right:0px;
     padding-bottom:20px;
     background-color: #7EBFD9;
     width: 90%;
@@ -292,7 +294,8 @@ Contact
 }
 
 .phone p {
-    font-family: 'Hind', sans-serif;}
+    font-family: 'Hind', sans-serif;
+}
 
 .social {
     width:50px;
@@ -435,7 +438,7 @@ Contact
 }
 
 .contact img {
-    width:300px;
+    width:100px;
 }
 
 .contact ul {
