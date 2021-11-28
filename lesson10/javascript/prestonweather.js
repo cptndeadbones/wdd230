@@ -54,4 +54,3 @@ fetch(weatherapi)
         })
     })
 
-    windChill();
