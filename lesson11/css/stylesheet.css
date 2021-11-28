@@ -183,22 +183,6 @@ Hero
     height: 500px;
 }
 
-.fish-haven {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.5)), url(/wdd230/lesson11/images/snowyroad.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: auto;
-}
-
-.fish-haven ul {
-    list-style: none;
-    background-color: #ffffff;
-    margin: 1em;
-    width: 15%;
-    padding: 1em;
-}
-
  .hero-button {
     color:#ffffff;
     font-size: 32px;
@@ -284,6 +268,8 @@ Contact
     display: flex;
     width:90%;
     margin:auto;
+    padding-left:0px;
+    padding-right:0px;
     padding-top:20px;
     padding-bottom: 20px;
     background-color: #8acee9;
@@ -344,12 +330,6 @@ section{
     margin:50px;
 }
 
-/************************************
-event section
-************************************/
-section div section .eventsection {
-    text-align: center;
-}
 /* *******************************************************************************************************************************************
 lesson05 Style Sheet
 *********************************************************************************************************************************************/
@@ -438,7 +418,7 @@ Contact
 }
 
 .contact img {
-    width:100px;
+    width:300px;
 }
 
 .contact ul {

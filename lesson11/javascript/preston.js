@@ -30,7 +30,9 @@ fetch(homepageurl)
         event3.innerHTML = `${city.events[2]}`;
         towns.appendChild(event3);
         
-        document.getElementById('prestonevent').appendChild(towns).setAttribute('class', 'eventsection');
+        towns.setAttribute('id', 'eventsection');
+      
+        document.getElementById('prestonevent').appendChild(towns);
         }
       });
 });

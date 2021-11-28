@@ -1,0 +1,38 @@
+.preston-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.5)), url(/wdd230/lesson11/images/perriganhome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.preston-hero ul {
+    list-style: none;
+    background-color: #ffffff;
+    margin: 1em;
+    width: 15%;
+    padding: 1em;
+}
+
+#eventsection {
+    text-align: center;
+}
+
+#eventsection h2 {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffffff;
+    width: 35%;
+    margin: auto;
+}
+
+.social {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.contact {
+    width: 80%;
+    padding: 20px;
+}
