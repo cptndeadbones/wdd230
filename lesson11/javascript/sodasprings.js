@@ -30,7 +30,7 @@ fetch(homepageurl)
         event3.innerHTML = `${city.events[2]}`;
         towns.appendChild(event3);
         
-        document.getElementById('sodaevent').appendChild(towns);
+        document.getElementById('sodaevent').appendChild(towns).setAttribute('class', 'eventsection');
         }
       });
 });

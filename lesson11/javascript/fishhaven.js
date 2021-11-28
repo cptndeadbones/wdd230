@@ -34,7 +34,7 @@ fetch(homepageurl)
         event4.innerHTML = `${city.events[3]}`;
         towns.appendChild(event4);
         
-        document.getElementById('fishevent').appendChild(towns);
+        document.getElementById('fishevent').appendChild(towns).setAttribute('class', 'eventsection');
         }
       });
 });
