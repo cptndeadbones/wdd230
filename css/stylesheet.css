@@ -1,21 +1,43 @@
 .header {
-    background-color:#1600A6;
+    background-color:#BF0F0F;
     padding:3% 25px 3% 25px;
+    display: flex;
+    flex-direction: row;
 }
 
 .header img {
-    margin-top: -6%;
-    width:150px;
-    box-shadow: 8px 8px 20px #a5a5a5;
+    float: left;
+    width:200px;
+    box-shadow: 8px 8px 20px #400101;
+    border-radius: 4px;
+}
+
+#title {
+    margin-left: 3%;
+    margin-top: 3%;
+    text-shadow: 3px 3px 4px #73020C;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 300;
-    color:#F6C900;
+    color:#000000;
+    font-weight: bolder;
+    margin: 0px;
 }
 
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+/***********************************************
+BODY 
+***********************************************/
 .bodyJustify {
+    width:80%;
     margin-left:3%;
 }
 
@@ -27,12 +49,19 @@ h1 {
 
 .list {
     font-family: 'Crimson Text', serif;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
 
+
+
+/***********************************************
+FOOTER
+***********************************************/
 .footer {
     text-align: center;
     color: #fff;
-    background-color:#1600A6;
+    background-color: #BF0F0F;
     padding:3% 25px 3% 25px;
 }
 
