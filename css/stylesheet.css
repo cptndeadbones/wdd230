@@ -1,8 +1,20 @@
+/***********************************************
+Main / global 
+***********************************************/
+body {
+    margin: auto;
+    width:60%;
+}
+
+/***********************************************
+BODY 
+***********************************************/
 .header {
     background-color:#BF0F0F;
     padding:3% 25px 3% 25px;
     display: flex;
     flex-direction: row;
+    border-radius: 15px;
 }
 
 .header img {
@@ -63,12 +75,13 @@ FOOTER
     color: #fff;
     background-color: #BF0F0F;
     padding:3% 25px 3% 25px;
+    border-radius: 15px;
 }
 
 .footer a {
-    color:#F6C900;
+    color:#000000;
 }
 
 .yellowUpdate {
-    color: #F6C900;
+    color: #000000;
 }
