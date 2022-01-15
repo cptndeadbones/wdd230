@@ -1,0 +1,47 @@
+header {
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background-color:#BF0F0F;
+    color:#ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom:20px;
+ }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    padding-top:10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    padding-bottom:25px;
+}
+
+.card {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #e8e8e8;
+}
+
+.content-spacing {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#whitespace{
+    padding-top: 50px;
+}
+
+.footer {
+    padding-top:15px;
+    margin-top:10px;
+    text-align: center;
+    background-color:#BF0F0F;
+    color:#ffffff;
+}

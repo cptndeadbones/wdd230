@@ -1,7 +1,21 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (max-width: 32.5em) {
+
+    body {
+        width: 100%;
+
+    }
 
     .header img {
         float:right;
     }
     
+    .menuTitle {
+        font-family: 'Karla', sans-serif;
+        color:#73020C;
+    }
+
+    .list li a {
+        color: #D93D59;
+    }
+
 }
