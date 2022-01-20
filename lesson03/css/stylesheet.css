@@ -1,0 +1,256 @@
+/****************************************
+Google fonts CSS
+*****************************************/
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    font-family: 'Rokkitt', serif;
+}
+
+h3 {
+    font-family: 'Rokkitt', serif;
+}
+
+p {
+    font-family: 'Trykker', serif;
+}
+
+/************************************
+* navigation CSS
+************************************/
+header a img {
+    width:100px;
+}
+
+nav {
+    text-align: center;
+    background-color: #2173a6;
+    width:80%;
+    margin:auto;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-flex;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-family:'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#f2b66d;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+
+ul {
+    margin:0;
+}
+
+/****************************************
+* lesson 03 index CSS
+*****************************************/
+#purpose {
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.align {
+    display: inline-flex;
+    flex-direction: column;
+}
+.purpose {
+    display:inline-flex;
+    padding: 25px;
+}
+
+#purpose h2 {
+    padding-right:25px;    
+}
+
+#purpose p {
+    text-align:left;
+}
+
+#websiteUrl {
+    display:inline-flex;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#websiteUrl p {
+    padding-left:25px;
+}
+
+#logo {
+    display:inline-flex;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#logo img {
+    padding-left: 25px;
+}
+
+#scenarios {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+ol {
+    list-style: none;
+    text-align: left;
+}
+
+/*****************************
+Target audience page
+*****************************/
+#targetHeader {
+    text-align:center;
+}
+
+#persona1 {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:80%;
+}
+
+#persona1 h3 {
+    width: 100%;
+}
+
+#persona1 p {
+    text-align: left;
+}
+
+#persona2 {
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:80%;
+}
+
+#persona2 h3{
+    width: 78%;
+}
+
+#persona2 p {
+    text-align: left;
+}
+
+/**************************************
+color scheme page
+**************************************/
+.color-scheme {
+    display: inline-flex;
+}
+
+.inline {
+    margin-left:20px;
+    margin-right:20px;   
+}
+
+.border {
+    padding:15px;
+}
+
+#color1 {
+    background-color:#1B72BF;
+    color:#ffffff;
+}
+
+#color2 {
+    background-color:#348ABF;
+    color:#ffffff;
+}
+
+#color3 {
+    background-color: #7EBFD9;
+    color:#000000;
+    border-style: none;
+}
+
+#color4 {
+    background-color:#F2D377;
+    color:#000000;
+}
+
+#color5 {
+    background-color: #F2B263;
+    color:#000000;
+}
+
+
+/**************************************
+Typography page
+**************************************/
+#typeHeader {
+    font-size: 2em;
+}
+
+#typePage {
+    display: inline-flex;
+}
+
+#typography {
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+#typography h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em;
+}
+
+#subheader {
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+#subHeader h3 {
+    font-family: 'Rokkitt', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#bodyCopy {
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+#bodyCopy h3 {
+    font-family: 'Trykker', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+/**************************************
+* footer CSS
+***************************************/
+.footer {
+    width:80%;
+    margin:auto;
+    text-align: center;
+    color: #fff;
+    background-color:#2173a6;
+    padding:3% 25px 3% 25px;
+}
+
+.footer a {
+    color:#F6C900;
+}
+
+.yellowUpdate {
+    color: #F6C900;
+}

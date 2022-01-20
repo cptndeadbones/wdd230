@@ -1,0 +1,55 @@
+@media only screen and (max-width: 500px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-family:'Kanit', sans-serif;
+        font-weight: 600;
+    }
+
+    .align {
+        flex-direction: column;
+    }
+
+    .purpose {
+        flex-direction: column;
+    }
+
+    #websiteUrl {
+        flex-direction: column;
+    }
+
+    #logo {
+        flex-direction: column;
+    }
+    
+    /*******************
+    target audience
+    ********************/
+    #persona1 {
+    flex-direction: column;
+    }
+
+    #persona2 {
+    flex-direction: column;
+    }
+
+    /**************************************
+    color scheme page
+    **************************************/
+    .color-scheme {
+    flex-direction: column;
+    }
+
+
+    /**************************************
+    Typography page
+    **************************************/
+    #typePage {
+        flex-direction: column;
+    }
+    
+
+}

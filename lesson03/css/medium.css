@@ -1,0 +1,13 @@
+@media only screen and (max-width: 750px) {
+    nav ul li {
+        display: inline-flex;
+        flex-direction: row;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-family:'Kanit', sans-serif;
+        font-weight: 600;
+    }
+    
+}
