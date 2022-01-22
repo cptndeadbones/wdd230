@@ -67,6 +67,8 @@ ul {
 .purpose {
     display:inline-flex;
     padding: 25px;
+    width:60%;
+    margin: auto;
 }
 
 #purpose h2 {

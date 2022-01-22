@@ -17,14 +17,24 @@
         flex-direction: column;
     }
 
+    #purpose {
+        width:100%;
+        margin:0;
+    }
+
     #websiteUrl {
         flex-direction: column;
+        margin:0;
     }
 
     #logo {
         flex-direction: column;
+        margin:0;
     }
     
+    #logo img {
+        width:100%;
+    }
     /*******************
     target audience
     ********************/
