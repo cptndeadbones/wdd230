@@ -2,31 +2,27 @@
 Google fonts CSS
 *****************************************/
 h1 {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-h2 {
-    font-family: 'Rokkitt', serif;
-}
-
-h3 {
-    font-family: 'Rokkitt', serif;
+h2, h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 p {
-    font-family: 'Trykker', serif;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 /************************************
 * navigation CSS
 ************************************/
 header a img {
-    width:100px;
+    width:150px;
 }
 
 nav {
     text-align: center;
-    background-color: #2173a6;
+    background-color: #F1F2C9;
     width:80%;
     margin:auto;
     text-decoration: none;
@@ -43,7 +39,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:#f2b66d;
+    color:#41590C;
 }
 
 main {
@@ -104,6 +100,7 @@ ul {
 #scenarios {
     display: inline-flex;
     flex-direction: column;
+    width:50%;
 }
 
 ol {
@@ -119,33 +116,33 @@ Target audience page
 }
 
 #persona1 {
-    display:inline-flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     width:80%;
 }
 
 #persona1 h3 {
-    width: 100%;
+    width: 60%;
 }
 
 #persona1 p {
     text-align: left;
+    width: 100%;
 }
 
 #persona2 {
-    display:inline-flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     width:80%;
 }
 
 #persona2 h3{
-    width: 78%;
+    width: 60%;
 }
 
 #persona2 p {
     text-align: left;
+    width:100%;
 }
 
 /**************************************
@@ -165,28 +162,28 @@ color scheme page
 }
 
 #color1 {
-    background-color:#1B72BF;
+    background-color:#77A612;
     color:#ffffff;
 }
 
 #color2 {
-    background-color:#348ABF;
+    background-color:#41590C;
     color:#ffffff;
 }
 
 #color3 {
-    background-color: #7EBFD9;
+    background-color: #B0D91E;
     color:#000000;
     border-style: none;
 }
 
 #color4 {
-    background-color:#F2D377;
+    background-color:#EDF25E;
     color:#000000;
 }
 
 #color5 {
-    background-color: #F2B263;
+    background-color: #F1F2C9;
     color:#000000;
 }
 
@@ -234,6 +231,23 @@ Typography page
     font-weight: 400;
 }
 
+.example-typography{
+    padding-top:50px;
+    width:50%;
+    margin: auto;
+    text-align: left;
+}
+
+.example-typography h1{
+    font-size: 42px;
+    margin:0;
+}
+.example-typography h2{
+    margin: 0;
+    font-size: 22px;
+}
+
+
 
 /**************************************
 * footer CSS
@@ -242,15 +256,15 @@ Typography page
     width:80%;
     margin:auto;
     text-align: center;
-    color: #fff;
-    background-color:#2173a6;
+    color: #41590C;
+    background-color:#F1F2C9;
     padding:3% 25px 3% 25px;
 }
 
 .footer a {
-    color:#F6C900;
+    color:#77A612;
 }
 
 .yellowUpdate {
-    color: #F6C900;
+    color: #77A612;
 }
