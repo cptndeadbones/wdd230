@@ -86,10 +86,6 @@ nav ul li a {
 }
 
 
-
-
-
-
 li a:after{
 	content:'';
 	width:0%;
