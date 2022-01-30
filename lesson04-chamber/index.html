@@ -33,39 +33,123 @@
 
 <!--**************** Nav *************** -->
         <nav>
-            <a href="/wdd230/lesson04-chamber/index.html"><img class="logo"src="/wdd230/images/lakewileycoc.png" alt="Lake Wiley Chamber of Commerce logo."></a>
-            <div class="tagline"><h1>Lake Wiley</h1>
+            <a href="/wdd230/lesson04-chamber/index.html"><img class="logo"src="/wdd230/images/lakewileycoc.png" alt="Lake Wylie Chamber of Commerce logo."></a>
+            <div class="tagline"><h1>Lake Wylie</h1>
             <h4>Chamber of Commerce</h4></div>
-            <button class="hide" onclick="toggleMenu()">&#9776;</button>
-            <ul id="patty" class="hamburger ">
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="mobile">
+                <a id="burger" onclick="toggleNavMenu()">☰</a>
+                <ul class="burger hide">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
             <div class="socialmenu">
                 <a class="social" href="https://www.facebook.com/"><img src="/wdd230/lesson04-chamber/images/facebook-logo.png" alt="Facebook logo."></a>
                 <a class="social" href="https://www.linkedin.com/jobs/"><img src="/wdd230/lesson04-chamber/images/linkedin-logo.png" alt="Linkedin logo."></a>
             </div>
-            <!-- Day and Date -->
-            <section>
-                <p><span id="weekday"></span>, <span id="day"></span> <span id="month"></span> <span id="year"></span></p>
-            </section>
         </nav>
+        <section class="date">
+            <p><span id="weekday"></span>, <span id="day"></span> <span id="month"></span> <span id="year"></span></p>
+        </section>
     </header>
 
 
     <body>
         <main>
-          
+            <section class="main-content">
+                <section class="event box">
+                    <h2>Event</h2>
+                    <h4>Pancakes in the park!</h4>
+                        <p>Come joine us for fluffy golden pancakes in central park this Saturday.</p>
+                        <P><b>Where:</b> Central Park</P>
+                        <P><b>When:</b> 9:00am</P>
+                </section>
+
+                <section class="hero box">
+                    <h1>Lake Wylie Chamber of Commerce</h1>
+                    <a href="#"><p>See local events</p></a>
+                    <p>
+                </section>
+
+                <section class="spotlight box">
+                    <h2 class="tabletview">Spotlight</h2>
+                    <div>
+                        <h3>Spotlight 1</h3>
+                        <p>Tina's Taco Truck</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis dui lorem,
+                            ac volutpat nisi consequat sit amet. Nulla fringilla justo ut enim rhoncus, in 
+                            laoreet mi volutpat. Cras pellentesque nec ante ac sagittis. Maecenas vehicula mi
+                            sapien, at luctus turpis posuere vel. Nullam vitae tortor accumsan, interdum dui 
+                            nec, blandit lorem. Mauris tincidunt nec tortor... <a href="#">read more</a></p>
+                    </div>
+
+                    <div>
+                        <h3>Spotlight 2</h3>
+                        <p>Vinies Pizza</p>
+                        <p>Ut pretium tristique sem, eu vulputate orci. Sed sit amet congue ligula. Nullam
+                            agittis ligula lacus, sit amet dapibus eros dapibus a. In ac nisi varius,
+                            pellentesque orci non, congue nibh. Nullam non finibus mi, nec dictum turpis. 
+                            Aliquam maximus fermentum quam, eu pulvinar nulla condimentum ut. Quisque vitae
+                            mollis turpis, nec blandit ex.</p>
+                    </div>
+
+                    <div class="tabletview">
+                        <h3>Spotlight 3</h3>
+                        <p>Rays Fantastic BBQ</p>
+                        <p>Proin pharetra turpis at gravida consectetur. Donec ornare imperdiet eleifend. Aliquam
+                            eget sodales nisl, congue ultricies lacus. Curabitur nibh leo, eleifend non ipsum non, 
+                            tempus feugiat ex. Quisque lobortis eu tellus et commodo. Morbi ac ex sodales, feugiat
+                            urna sit amet, iaculis sapien. Cras quis purus eu tellus sodales consequat vel eu dui.
+                            Morbi et sapien commodo, consectetur libero interdum... <a href="#">read more</a></p>
+                    </div>
+                </section>
+
+                <section class="weather box">
+                    <h2>Weather</h2>
+                    <h2>76 &#176</h2>
+                    <p>Sunny</p>
+                </section>
+
+                <section class="join box">
+                    <h2>Join</h2>
+                    <p><a>Click Here</a> to join our news letter and get deals in the Lake Wiley area!</p>
+                </section>
+
+                <section class="newsrelease box">
+                    <h2>News Release</h2>
+                    <h3>Winter snow storm covers the east coast.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie dolor at eros
+                    molestie tincidunt. Sed ultricies risus hendrerit, ornare lacus vitae, dictum justo. 
+                    Aliquam rutrum maximus risus, in semper lacus egestas vel. Nam in pretium ligula, in 
+                    fringilla orci. Praesent at libero sodales, facilisis diam non, tincidunt odio. Sed 
+                    turpis arcu, scelerisque non sapien blandit, vehicula vehicula est. Curabitur dictum 
+                    venenatis massa a suscipit. Integer sed sodales erat, quis viverra enim. Integer at 
+                    sagittis leo, vitae feugiat felis. Cras nec mauris quis dui interdum hendrerit. Proin 
+                    id tortor id libero tristique imperdiet. Sed scelerisque luctus quam quis sodales. ...<a href="#">Read More</a></p>
+                    <img src="#">
+                </section>
+            </section>
         </main>
 
         <footer class="footer">
-
+            <section class="upperfooter">
+                <img src="/wdd230/images/lakewileycoc.png">
+                <section class="address">
+                    <h3>Lake Wylie Chamber of Commerce</h3>
+                    <p>264 Latitude Ln Suite 101</p>
+                    <p>Lake Wylie, SC 29710</p>
+                </section>
+                <section class="email">
+                    <p>lakewyliechamber@yahoo.com</p>
+                    <a class="phone" href="tel:+8038312827">(803) 831-2827</a>
+                    <a href="https://www.google.com/maps/place/Lake+Wylie+Chamber+of+Commerce/@35.1202857,-81.0806295,17z/data=!3m1!4b1!4m5!3m4!1s0x8856910ee396a50d:0xd4410d2ac207622b!8m2!3d35.120269!4d-81.078384"><p>📍 Location Map</p></a>
+                </section>
+            </section>
             <section class="footercopywright">
                 <span id="currentDate"></span>
-                <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a
-                        href="https://byui.instructure.com/">BYUI Online Learning</a></p>
+                <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a href="https://byui.instructure.com/">BYUI Online Learning</a></p>
                 <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p>
             </section>
         </footer>

@@ -17,23 +17,7 @@ p {
     font-family: 'Trykker', serif;
     font-size: 16px;
 }
-/************************************
-* Pancakes in the park special announcment.
-************************************/
-.pancakes {
-    background-color: #f2b66d;
-    width:100%;
-    text-align: center;
-    font-weight: 500;
-}
 
-.pancakes p {
-    font-size: 18px;
-}
-
-.syrup {
-    background-color:red !important;
-}
 
 
 /************************************
@@ -70,6 +54,7 @@ nav a img{
 nav ul {
     list-style-type: none;
     margin: auto;
+    display: flex;
 }
 
 nav ul li {
@@ -85,40 +70,6 @@ nav ul li a {
     color:#000000;
 }
 
-
-li a:after{
-	content:'';
-	width:0%;
-	transition:all 0.3s ease;
-	left:50%;
-}
-
-li a:before{
-	content:'';
-	width:0%;
-	transition:all 0.3s ease;
-	left:50%;
-}
-
-li a:hover:after{
-	content:'';
-	position:absolute;
-	bottom:0px;
-	left:50%;
-	background:#F2D377;
-	height:3px;
-	width:50%;
-}
-
-li a:hover:before{
-	content:'';
-	position:absolute;
-	bottom:0px;
-	left:0px;
-	background:#F2B263;
-	height:3px;
-	width:50%;
-}
 nav div {
     margin:auto;
 }
@@ -135,127 +86,43 @@ nav .socialmenu {
     padding-right: 15px;
 }
 
-
 /***************************************
-Hamburger
+Header Date
 ***************************************/
-
-#title{
-    text-align:center;
+.date {
+    background-color: #EDF25E;
+    padding-bottom: 10px;
 }
 
-.section-title{
-    color: #000000;
-    font-size: 1.5em;
-}
-
-
-/***************************************
-Hero
-***************************************/
-.hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.5)), url(/wdd230/Lesson04/images/Perrigan\ photography.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: auto;
-}
-
-.hero ul {
-    list-style: none;
-    background-color: #ffffff;
-    margin: 1em;
-    width: 15%;
-    padding: 1em;
-}
-
-.float-right {
-    float:right;
-}
-
-/**************************************
-five day forcast
-**************************************/
-section {
-    background-color: #7EBFD9;
-    width: 80%;
-    margin: auto;
-    padding: 1em;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    font-family: Kanit, sans-serif;
-}
-
-.fiveDay ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.fiveDay li{
-    list-style: none;
-    margin:auto;
-}
-
-.fiveDay li img {
-    width: 100px;
-}
-
-.weatherTile {
-    display: flex;
-    flex-direction: column;
+.date p {
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right:20px;
+    padding:10px;
     text-align: center;
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 15px;
+    background-color:#F1F2C9;
 }
 
-/**************************************
-Articles / News 
-**************************************/
-.articles img {
-    width: 280px;
-    float: right;
-    padding-left:15px;
+/***********************************
+Main
+***********************************/
+.box {
+    background-color:#F1F2C9;
+    border-color: #77A612;
+    border-style: solid;
+    border-width: 1px;
+    padding:10px;
 }
 
-.articles h3 {
-    font-size: 1.3em;
+.spotlight div{
+    border-style: solid;
+    border-color: #77A612;
+    border-width:1px;
+    padding:5px;
 }
 
-.articles p {
-    line: height 1.3em;
-}
 
-
-/***************************************
-Contact
-***************************************/
-.contact {
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-}
-
-.contact a {
-    width:auto;
-}
-
-.contact img {
-    border-radius: 5px;
-}
-
-.contact img {
-    width:300px;
-}
-
-.contact ul {
-    list-style: none;
-}
-
-.column2 {
-    display:flex;
-    flex-direction: column;
-}
 /***********************************
 JS footer
 ***********************************/
@@ -266,6 +133,40 @@ JS footer
     background-color: #EDF25E;
     margin-top:0px;
     margin-bottom:0px;
+}
+
+.upperfooter{
+    display:flex;
+    margin:auto;
+    width:90%;
+}
+
+.address {
+    text-align: left;
+    margin-left:20px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.address h3 {
+    margin:0px;
+}
+
+.address p{
+    margin:0px;
+}
+
+.email {
+    margin:auto;
+}
+
+.email p {
+    margin:0px
+}
+
+.email a {
+    text-decoration: none;
+    color:#41590C;
 }
 
 .footer {

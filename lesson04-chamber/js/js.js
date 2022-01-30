@@ -9,9 +9,13 @@ document.getElementById("lastUpdated").innerHTML= updated;
 /************************************************************
  * Responsive hamburger menu
  ***********************************************************/
-function toggleMenu() {
-    document.getElementById('patty').classList.toggle('hide');
+const hamburger = document.getElementsByClassName("burger")[0];
+
+function toggleNavMenu() {
+    hamburger.classList.toggle('hide');
 }
+
+
 /************************************************************
  * Current Date output.
  **********************************************************/
@@ -31,3 +35,4 @@ document.getElementById("weekday").innerHTML = day;
 document.getElementById("day").innerHTML = d.getDate();
 document.getElementById("month").innerHTML = mon;
 document.getElementById("year").innerHTML = d.getFullYear();
+
