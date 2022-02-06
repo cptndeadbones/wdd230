@@ -18,6 +18,22 @@ p {
     font-size: 16px;
 }
 
+/************************************
+* Meeting Announcment 
+************************************/
+.pancakes {
+    text-align:center;
+}
+
+.pancakes p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin:auto;
+    padding:.5rem;
+}
+
+.syrup {
+    display: none;
+}
 
 
 /************************************
@@ -156,7 +172,7 @@ Main
     background-color:#77A612;
     color:#ffffff;
     width:40%;
-    margin-left:auto;
+    margin-left:100%;
     font-size: 1.5rem;
     border-radius:15px;
     text-align:center;
