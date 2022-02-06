@@ -1,0 +1,409 @@
+/****************************************
+Google fonts CSS
+*****************************************/
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    font-family: 'Rokkitt', serif;
+}
+
+h3 {
+    font-family: 'Rokkitt', serif;
+}
+
+p {
+    font-family: 'Trykker', serif;
+    font-size: 16px;
+}
+
+
+
+/************************************
+* navigation CSS
+************************************/
+nav {
+    background-color:#EDF25E;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+nav a img{
+    width:100px;
+}
+
+.logo {
+    padding:7%;
+}
+
+.tagline{
+    margin-left:2%;
+    margin-right:2%;
+    width:100%;
+}
+.tagline h1{
+    margin:auto;
+}
+
+.tagline h4{
+    margin:0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+}
+
+nav ul li {
+    margin:20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight:600;
+    font-size: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color:#000000;
+}
+
+nav div {
+    margin:auto;
+}
+
+nav div a img {
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+nav .socialmenu {
+    text-align: right;
+    width:100%;
+    padding-right: 15px;
+}
+
+/***************************************
+Header Date
+***************************************/
+.date {
+    background-color: #EDF25E;
+    padding-bottom: 10px;
+}
+
+.date p {
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right:20px;
+    padding:10px;
+    text-align: center;
+    background-color:#F1F2C9;
+}
+
+/***********************************
+Main
+***********************************/
+.box {
+    background-color:#F1F2C9;
+    border-color: #77A612;
+    border-style: solid;
+    border-width: 1px;
+    padding:10px;
+}
+
+.spotlight div{
+    border-style: solid;
+    border-color: #77A612;
+    border-width:1px;
+    padding:5px;
+}
+/********************************
+Event Section
+********************************/
+.event {
+    text-align: center;
+    margin:0px;
+}
+
+.event div {
+    background-color:#ffffff;
+    padding:1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.event div .location {
+    box-shadow: none;
+    text-align:left;
+    padding:0px;
+}
+
+.event h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.event p {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.zeromargin {
+    margin:0px;
+}
+
+#bridge {
+    font-size: 45px;
+    margin:0px;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+/********************************
+Spotlight Section
+********************************/
+/*** Tinas Tacos ***/
+.tinas {
+    text-align: center;
+}
+
+.tinas div {
+    padding-bottom:2rem; 
+    background-color:#ffffff;
+    margin-bottom:20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+}
+
+.tinas h3 {
+    margin:0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#the_taco{
+    padding: 1.3rem; 
+    font-size: 45px;
+    background-image: url("/wdd230/lesson05/images/mexican_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.phone a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-bottom:5px;
+}
+
+.tinas div p {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/*** Vinies Pizza***/ 
+.vinies {
+    background-color:#ffffff;
+    border-style: dashed !important;
+    border-width: 2px !important;
+    border-color: #ff0000 !important;
+    border-radius: 5px !important;
+}
+
+.slice {
+    font-size: 45px;
+    padding:1.3rem;
+}
+
+.vinies h3 {
+    margin:0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: underline;
+}
+
+.vinies h4 {
+    margin:0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.vinies p {
+    margin:0px;
+    padding:1.1rem;
+}
+
+.vinies p a {
+    color:#ff0000;
+}
+
+/*** Mikes Auto Glass***/
+.tabletview {
+    text-align: center;
+    background-color:#ffffff;
+    margin-top:20px;
+}
+
+.tabletview p{
+    margin:0px;
+}
+
+.mikes {
+    background-image: linear-gradient(135deg, #CDFFFF, #BFDDFF);
+    padding:1.2rem;
+    margin-bottom:15px;
+    margin-top:1.3rem;
+}
+
+#car {
+    font-size: 45px;
+    margin:0px;
+}
+
+/***********************************
+Weather 
+***********************************/
+.weather {
+    text-align: center;
+}
+
+.weather h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.weather div {
+    background-color:#ffffff;
+    box-shadow: 5px 5px 10px black;
+    padding:1rem;
+    border-radius:5px;
+}
+
+.weather div div {
+    box-shadow:none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+}
+
+.weather div div h2 {
+    font-size:2rem;
+    margin:auto;
+    color: #000759;
+}
+
+.weather p {
+    margin:0px;
+    text-align:left;
+}
+
+.rainy {
+    text-align: right!important;
+    margin:auto!important;
+    border-bottom-style:solid;
+    border-width:1px;
+    width:80%;
+    text-align:right;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.condition {
+    margin-top:20px;
+}
+
+/***********************************
+Join
+***********************************/
+.card {
+    background-color:#ffffff;
+    border-radius:5px; 
+    box-shadow: 5px 5px 10px black;
+    padding:1rem; 
+}
+
+.card h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align:center;
+    background-color: #77A612;
+    border-radius:15px;
+    padding:.5rem;
+    width:60%;
+    margin:auto;
+}
+
+.card p {
+    text-align:center;
+}
+
+.card h2 a {
+    text-decoration:none;
+    color:#ffffff;
+}
+
+/***********************************
+News Story 
+***********************************/
+
+
+
+/***********************************
+JS footer
+***********************************/
+.footercopywright{
+    border-top: #000000;
+    border-top: solid;
+    border-width: 1px;
+    background-color: #EDF25E;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.upperfooter{
+    display:flex;
+    margin:auto;
+    width:90%;
+}
+
+.address {
+    text-align: left;
+    margin-left:20px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.address h3 {
+    margin:0px;
+}
+
+.address p{
+    margin:0px;
+}
+
+.email {
+    margin:auto;
+}
+
+.email p {
+    margin:0px
+}
+
+.email a {
+    text-decoration: none;
+    color:#41590C;
+}
+
+.footer {
+    margin:auto;
+    text-align: center;
+    color: #000000;
+    background-color:#EDF25E;
+    padding:1% 25px 1% 25px;
+}
+
+.footer a {
+    color:#77A612;
+}
+
+.yellowUpdate {
+    color: #77A612;
+}

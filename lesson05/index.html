@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- Lake Wylie Home page -->
+        <title>Lake Wiley Chamber of Commerce</title>
+        <meta name="description" content="Chamber of Commerce Home">
+        
+        <!-- Font family imports from Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fira+Sans+Condensed&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        
+        <!-- Style sheets -->
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="/wdd230/lesson05/css/stylesheet.css">
+        <link rel="stylesheet" href="/wdd230/lesson05/css/large.css">
+        <link rel="stylesheet" href="/wdd230/lesson05/css/medium.css">
+        <link rel="stylesheet" href="/wdd230/lesson05/css/small.css">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/wdd230/images/favicon.png">
+    </head>
+
+    <header>
+    <!-- Special announcment for saturday pancakes in the park.
+    <div class="pancakes" id="test" onload="breakfast()">
+        <p>***<b>Saturday</b> = <i>Preston Pancakes in the Park!</i> <b>9:00 a.m.</b> <i>Saturday at the city pavilion!</i>***</p>
+    </div> -->
+
+<!--**************** Nav *************** -->
+        <nav>
+            <a href="/wdd230/lesson04-chamber/index.html"><img class="logo"src="/wdd230/images/lakewileycoc.png" alt="Lake Wylie Chamber of Commerce logo."></a>
+            <div class="tagline"><h1>Lake Wylie</h1>
+            <h4>Chamber of Commerce</h4></div>
+            <div class="mobile">
+                <a id="burger" onclick="toggleNavMenu()">☰</a>
+                <ul class="burger hide">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="socialmenu">
+                <a class="social" href="https://www.facebook.com/"><img src="/wdd230/lesson04-chamber/images/facebook-logo.png" alt="Facebook logo."></a>
+                <a class="social" href="https://www.linkedin.com/jobs/"><img src="/wdd230/lesson04-chamber/images/linkedin-logo.png" alt="Linkedin logo."></a>
+            </div>
+        </nav>
+
+        <section class="date">
+            <p><span id="weekday"></span>, <span id="day"></span> <span id="month"></span> <span id="year"></span></p>
+        </section>
+    </header>
+
+<!-- **********Main / Body Copy *********-->
+    <body>
+        <main>
+            <section class="main-content">
+                <section class="event box">
+                    <div>
+                        <h2 class="zeromargin">Bridge Opening Ceremony</h2>
+                        <p id="bridge" class="zeromargin">🌉</p>
+                        <h4 class="zeromargin">Buster Boy Bridge is NOW OPEN</h4>
+                        <p class="zeromargin">After the long wait, Buster boy bridge is finally open. Come celebrate faster commute times and less traffice with us at Camp Thunderbird... <a href="#">read more</a></p>
+                        <div class="location">
+                            <p class="zeromargin"><b>Where:</b> Camp Thunder Bird</p>
+                            <p class="zeromargin"><b>When:</b> Sat, July 2nd at 9:00am</p>
+                        </div>   
+                    </div>
+                </section>
+
+                <section class="hero box">
+                    <h1>Lake Wylie Chamber of Commerce</h1>
+                    <a href="#"><p>See local events</p></a>
+                    <p>
+                </section>
+
+                <section class="spotlight box tinas">
+                    <div>
+                        <p id="the_taco">🌮</p>
+                        <h3>Tina's Taco Truck</h3>
+                        <p class="zeromargin phone"><a href="tel:+112345678910">(555)307-1414</a></p>
+                        <p class="zeromargin">2X Two for tuesday tacos $$$</p>
+                    </div>
+
+                    <div class="vinies">
+                        <p class="slice">🍕</p>
+                        <h3>Vinies Pizza</h3>
+                        <h4>Lake Wylies Largest Pizza!!!</h4>
+                        <p>Come take the solo pizza challenge. Finish a large pizza in 45mins and the pizza is <b><a>FREE!</a></b></p>
+                    </div>
+
+                    <div class="tabletview">
+                        <section class="mikes">
+                        <p id="car">💥🚗💥</p>
+                        <h3 class="zeromargin">Mike's Auto Glass Repair</h3>
+                        </section>
+                        <p>Now offering oil changes. $45.99 </p>
+                        <p>3347 Alexander Love HWY</p>
+                        <p>York, South Carolina 29710</p>
+                    </div>
+                </section>
+
+                <section class="weather box">
+                    <div>
+                        <h2>Weather</h2>
+                        <div>
+                            <img src="/wdd230/lesson05/images/rainyweathericon.png">
+                            <h2>56 &#176</h2>
+                        </div>
+                        <p class="rainy">Rainy</p>
+                        <section class="condition">
+                            <p><b>Windpeed:</b> 5 mph</p>
+                            <p><b>WindChill:</b> N/A</p>
+                        </section>
+                    </div>    
+                </section>
+
+                <section class="join box">
+                    <div class="card">
+                        <h2><a href="#">Join</a></h2>
+                        <p>Join the Chamber of commerce and become a part of the community. See how being a memeber of the chamber of commerce benefits your business.</p>
+                    </div>   
+                </section>
+
+                <section class="newsrelease box">
+                    <h2>News Release</h2>
+                    <h3>Winter snow storm covers the east coast.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie dolor at eros
+                    molestie tincidunt. Sed ultricies risus hendrerit, ornare lacus vitae, dictum justo. 
+                    Aliquam rutrum maximus risus, in semper lacus egestas vel. Nam in pretium ligula, in 
+                    fringilla orci. Praesent at libero sodales, facilisis diam non, tincidunt odio. Sed 
+                    turpis arcu, scelerisque non sapien blandit, vehicula vehicula est. Curabitur dictum 
+                    venenatis massa a suscipit. Integer sed sodales erat, quis viverra enim. Integer at 
+                    sagittis leo, vitae feugiat felis. Cras nec mauris quis dui interdum hendrerit. Proin 
+                    id tortor id libero tristique imperdiet. Sed scelerisque luctus quam quis sodales. ...<a href="#">Read More</a></p>
+                    <img src="#">
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <section class="upperfooter">
+                <img src="/wdd230/images/lakewileycoc.png">
+                <section class="address">
+                    <h3>Lake Wylie Chamber of Commerce</h3>
+                    <p>264 Latitude Ln Suite 101</p>
+                    <p>Lake Wylie, SC 29710</p>
+                </section>
+                <section class="email">
+                    <p>lakewyliechamber@yahoo.com</p>
+                    <a class="phone" href="tel:+8038312827">(803) 831-2827</a>
+                    <a href="https://www.google.com/maps/place/Lake+Wylie+Chamber+of+Commerce/@35.1202857,-81.0806295,17z/data=!3m1!4b1!4m5!3m4!1s0x8856910ee396a50d:0xd4410d2ac207622b!8m2!3d35.120269!4d-81.078384"><p>📍 Location Map</p></a>
+                </section>
+            </section>
+            <section class="footercopywright">
+                <span id="currentDate"></span>
+                <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a href="https://byui.instructure.com/">BYUI Online Learning</a></p>
+                <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p>
+            </section>
+        </footer>
+        <script src="/wdd230/lesson04-chamber/js/js.js"></script>
+    </body>
+
+</html>
