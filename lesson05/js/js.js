@@ -6,19 +6,6 @@ document.getElementById("currentYear").textContent = year;
 let updated = document.lastModified;
 document.getElementById("lastUpdated").innerHTML= updated;
 
-/************************************************************
- * Special announcment. 
- ***********************************************************/
-const eggs = d.getDay();
-let saturdayMsg = document.querySelector("test");
-
-function breakfast(){
-  if (eggs == 1 || eggs == 2){
-      saturdayMsg.classList.remove("syrup");
-    } else { saturdayMsg.classList.add("syrup");
-    }
-}
-breakfast();
 
 /************************************************************
  * Responsive hamburger menu

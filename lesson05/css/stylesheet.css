@@ -35,6 +35,20 @@ p {
     display: none;
 }
 
+/************************************
+Mikes adjustments
+*************************************/
+/* .special {
+    display: none;
+}
+.reveal {
+    display: flex;
+    font-size: 2em;
+    font-weight: 700;
+    color: #ffff92;
+    justify-content: center;
+    padding: 20px;
+} */
 
 /************************************
 * navigation CSS
