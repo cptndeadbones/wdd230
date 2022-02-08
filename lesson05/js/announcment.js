@@ -7,3 +7,5 @@ function breakfast(){
     } else { saturdayMsg.classList.add("syrup");
     }
 }
+
+breakfast()
