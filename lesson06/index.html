@@ -110,12 +110,12 @@
                         <h2>Weather</h2>
                         <div>
                             <img src="/wdd230/lesson05/images/rainyweathericon.png" alt="Place holder icon of a rain cloud for weather section.">
-                            <h2>39 &#176;</h2>
+                            <h2 id="high">39</h2> <h2 id="deg">&#176;</h2>
                         </div>
                         <p class="rainy">Rainy</p>
                         <section class="condition">
-                            <p><b>Windpeed:</b> 5 mph</p>
-                            <p><b>WindChill:</b> N/A</p>
+                            <p><b>Windpeed:</b> <span id="wind-speed">5</span> mph</p>
+                            <p><b>WindChill:</b> <span id="wind-chill" onload="windChill()">N/A</span></p>
                         </section>
                     </div>    
                 </section>
@@ -165,7 +165,7 @@
         </footer>
         <script src="/wdd230/lesson04-chamber/js/js.js"></script>
         <script src="/wdd230/lesson05/js/announcment.js"></script>
-        <!-- <script src="js/mikes.js"></script> -->
+        <script src="/wdd230/lesson06/js/windchill.js"></script>
     </body>
 
 </html>

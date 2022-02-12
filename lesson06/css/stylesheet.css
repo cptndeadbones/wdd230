@@ -352,7 +352,10 @@ Weather
 
 .weather div div h2 {
     font-size:2rem;
-    margin:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right:0px;
+    margin-left:auto;
     color: #000759;
 }
 
@@ -376,6 +379,11 @@ Weather
 .condition {
     margin-top:20px;
     padding-left:10%;
+}
+
+#deg {
+    margin-left:0px;
+    margin-right:0px;
 }
 
 
