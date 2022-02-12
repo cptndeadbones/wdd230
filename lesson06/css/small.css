@@ -1,0 +1,97 @@
+@media only screen and (max-width: 500px) {
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .burger{
+        display: block;
+    }
+    
+    .hide{
+        display: none;
+    }
+    
+    #burger {
+        cursor:pointer;
+    }
+
+    .logo {
+        margin:auto;
+    }
+    
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap:10px;
+        width:100%;
+        margin: 20px auto 20px auto;
+    }
+
+    .main-content > .hero {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .main-content > .event {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .main-content > .weather {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end:1;
+    }
+
+    .main-content > .newsrelease {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+
+    .main-content > .spotlight {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        flex-direction: column;
+    }
+
+    .main-content > .join{
+        display:none;
+    }
+
+    .upperfooter {
+        flex-direction: column;
+    }
+
+    .upperfooter img{
+        width:150px;
+        margin:auto;
+    }
+
+    .address{
+        margin-top:20px;
+    }
+
+    .address p {
+        text-align: center;
+    }
+
+    .email {
+        margin:20px auto 20px auto; 
+    }
+
+    .email a {
+        color:#41590C; 
+    }
+
+}
