@@ -520,3 +520,7 @@ JS footer
 .yellowUpdate {
     color: #ffffff;
 }
+
+#currentDate {
+    display:none;
+}
