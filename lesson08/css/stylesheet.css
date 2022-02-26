@@ -529,7 +529,57 @@ JS footer
 /*********************************************************************************
 Join Page
 *********************************************************************************/
- form {
-     margin:auto;
+.title {
+    text-align: center;
+}
+
+form {
+     margin:20px auto 20px auto;
      width:25%;
+     background-color:#F1F2C9;
+     border-style: solid;
+     border-width:2px;
+     border-radius: 5px;
+     border-color:#888888;
+     padding:1.5rem;
  }
+
+ /*********************************************************************************
+Thank you page
+*********************************************************************************/
+.thankyoumsg {
+    text-align: center;
+    margin:100px auto 100px auto;
+    width:60%;
+    background-color:#F1F2C9;
+    padding:1.1rem;
+    border-style: double;
+    border-width:3px;
+    border-color:#999999;
+}
+
+.thankyoumsg h2 {
+    font-size: 1.9rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.thankyoumsg p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size:1.2rem;
+}
+
+.thankyou_redirect {
+    text-decoration: none;
+    background-color: #77A612;
+    color:#000000;
+    padding:5px 20px 5px 20px;
+    border-radius:10px;
+    border-style:solid;
+    border-width:1px;
+}
+
+.thankyou_redirect:hover {
+    background-color:#EDF25E;
+    box-shadow: -2px 2px 7px #888888;
+}
+

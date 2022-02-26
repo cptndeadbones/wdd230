@@ -58,6 +58,7 @@
     <body>
 
        <form action="thankyou.html" method="get">
+           <h3 class="title">Join the Lake Wylie Chamber of Commerce</h3>
             <div>
                 <lable>First Name:<br>
                 <input type="text" id="fname" name="fname" required>
@@ -72,11 +73,45 @@
 
             <div>
                 <br><label>Business title:<br>
-                <input type="text" id="title" name="title">
+                <input type="text" id="title" name="title" pattern="[A-Za-z -]{7}">
                 </label>
             </div>
 
-            
+            <div>
+                <br><label>Email: <br>
+                    <input type="email" name="email" placeholder="thatoneguy@gmail.com" required>
+                </label>
+            </div>
+
+            <div>
+                <br><label>Cell #:<br>
+                <input type="tel" name="phone" placeholder="123 456 7890" required>
+                </label>
+            </div>
+
+            <div>
+                <br><label>Membership lvl:<br>
+                <select id="membership" name="memebership">
+                    <option value="select one">select one</option>
+                    <option value="Non Profit">NP Membership is for non profit organizations</option>
+                    <option value="Bronze">Bronze</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Gold">Gold</option> 
+                    </select>
+                </label>
+            </div>
+
+            <div>
+                <br><label>Business description:<br>
+                    <textarea id="description" name="description" rows="4" cols="50">Please add a short description about your business.</textarea>
+                    </textarea>
+                </label>
+            </div>
+
+            <!-- Hidden input -->
+            <input type="hidden" id="hidden" name="hidden" value="">
+
+            <input type="submit" value="Submit">
        </form>
 
         <footer class="footer">
