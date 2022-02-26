@@ -80,5 +80,16 @@ figure img {
     width: 100%;
 }
 
+form {
+    margin:20px auto 20px auto;
+    width:35%;
+    background-color:#F1F2C9;
+    border-style: solid;
+    border-width:2px;
+    border-radius: 5px;
+    border-color:#888888;
+    padding:1.5rem;
+}
+
 
 }    
