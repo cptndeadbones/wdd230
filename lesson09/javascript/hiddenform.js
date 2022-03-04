@@ -1,0 +1,1 @@
+document.getElementById("hidden").innerHTML = date.toDateString();
