@@ -5,7 +5,7 @@
       "address": "604 Nautical Drive, Lake Wylie, South Carolina, 29710",
       "phone": "(803) 831 - 8930",
       "image": "https://cdn-icons.flaticon.com/png/512/3855/premium/3855004.png?token=exp=1646494151~hmac=aab7bb209713165e86e4d82dc4557a4c",
-      "icon alt tag": "https://www.flaticon.com/free-icons/aztec",
+      "iconAlt": "https://www.flaticon.com/free-icons/aztec",
       "website": "www.aztecgrill.com"
     },
     {
@@ -13,7 +13,7 @@
       "address": "168 HWY 274 #348, Lake Wylie, South Carolina, 29710",
       "phone": "(704) 222 - 0834",
       "image": "https://cdn-icons-png.flaticon.com/512/2983/2983067.png",
-      "icon alt tag": "https://www.flaticon.com/free-icons/camera",
+      "iconAlt": "https://www.flaticon.com/free-icons/camera",
       "website": "www.carolinaselfies.com"
     },
     {
@@ -21,7 +21,7 @@
       "address": "3990 Charlotte HWY, Lake Wylie, South Carolina, 29710",
       "phone": "(704) 591 - 5383",
       "image": "https://cdn-icons-png.flaticon.com/512/89/89129.png",
-      "icon alt tag": "https://www.flaticon.com/free-icons/boat",
+      "iconAlt": "https://www.flaticon.com/free-icons/boat",
       "website": "www.holleywatersports.com"
     },
     {
@@ -29,7 +29,7 @@
       "address": "1668 Glenway Rd, Clover South Carolina, 29710",
       "phone": "(804) 972 - 4318",
       "image": "https://cdn-icons.flaticon.com/png/512/4514/premium/4514764.png?token=exp=1646495313~hmac=9ab8ac845fcf314154947aadc02dbfb0",
-      "icon alt tag": "https://www.flaticon.com/free-icons/electrical",
+      "iconAlt": "https://www.flaticon.com/free-icons/electrical",
       "website": "www.foxelectric.com"
     },
     {
@@ -37,7 +37,7 @@
       "address": "9729 S. Tryon St Charlotte NC 28273",
       "phone": "(704) 588 - 4400",
       "image": "https://cdn-icons.flaticon.com/png/512/3372/premium/3372417.png?token=exp=1646495503~hmac=3e35814729f70d32c7be8ccb08a7608d",
-      "icon alt tag": "https://www.flaticon.com/free-icons/pets",
+      "iconAlt": "https://www.flaticon.com/free-icons/pets",
       "website": "www.steelcreekanimalhospital.com"
     },
     {
@@ -45,7 +45,7 @@
       "address": "649 Bellegray Road Clover SC 29710",
       "phone": "(704) 214-7814",
       "image": "https://cdn-icons.flaticon.com/png/512/2712/premium/2712098.png?token=exp=1646495708~hmac=25f40b4e04e624eb386537cb7bd6eba5",
-      "icon alt tag": "https://www.flaticon.com/free-icons/construction",
+      "iconAlt": "https://www.flaticon.com/free-icons/construction",
       "website": "www.irongatefarm.com"
     },
     {
@@ -53,7 +53,7 @@
       "address": "4070 Charlotte Hwy Lake Wylie SC 29710",
       "phone": "(803) 656-5100",
       "image": "https://cdn-icons.flaticon.com/png/512/1293/premium/1293672.png?token=exp=1646496192~hmac=c447a23c29665522ba1606a9b922aadc",
-      "icon alt tag": "https://www.flaticon.com/free-icons/barber",
+      "iconAlt": "https://www.flaticon.com/free-icons/barber",
       "website": "www.lakesidebarberschool.com"
     },
     {
@@ -61,7 +61,7 @@
       "address": "221 Latitude Lane, #103 Lake Wylie SC 29710",
       "phone": "(803) 831-0560",
       "image": "https://cdn-icons.flaticon.com/png/512/1658/premium/1658273.png?token=exp=1646496354~hmac=da9fe7c770550c285656b8b05bf9019b",
-      "icon alt tag": "https://www.flaticon.com/free-icons/nails",
+      "iconAlt": "https://www.flaticon.com/free-icons/nails",
       "website": "www.nailpalace.com"
     },
     {
@@ -69,7 +69,7 @@
       "address": "125 Evergreen Road #109 Lake Wylie SC 29710",
       "phone": "(803) 831-1234",
       "image": "https://cdn-icons.flaticon.com/png/512/2964/premium/2964546.png?token=exp=1646496440~hmac=1bb0f285e6fe622cf8e82176e1b6e62e",
-      "icon alt tag": "https://www.flaticon.com/free-icons/fitness",
+      "iconAlt": "https://www.flaticon.com/free-icons/fitness",
       "website": "www.anytimefitnesslakewylie.com"
     },
     {
@@ -77,7 +77,7 @@
       "address": "1100 Village Harbor Drive Lake Wylie SC 29710",
       "phone": "(803) 831-8856",
       "image": "https://cdn-icons-png.flaticon.com/512/2818/2818366.png",
-      "icon alt tag": "https://www.flaticon.com/free-icons/dentist",
+      "iconAlt": "https://www.flaticon.com/free-icons/dentist",
       "website": "www.lwfamilydentistry.com"
     },
     {
@@ -85,7 +85,7 @@
       "address": "13460 Steelecroft Prkway Charlotte NC 28278",
       "phone": "(704) 637-0995",
       "image": "https://cdn-icons-png.flaticon.com/512/2791/2791163.png",
-      "icon alt tag": "https://www.flaticon.com/free-icons/health",
+      "iconAlt": "https://www.flaticon.com/free-icons/health",
       "website": "www.atriumhealth.com"
     },
     {
@@ -93,7 +93,7 @@
       "address": "5010 Old York Rd Rock Hill SC 29732",
       "phone": "(803) 324-7572",
       "image": "https://cdn-icons.flaticon.com/png/512/5789/premium/5789506.png?token=exp=1646497104~hmac=fcc3d4c8c1b4c9593414ea53b8a463fe",
-      "icon alt tag": "https://www.flaticon.com/free-icons/heating-and-cooling",
+      "iconAlt": "https://www.flaticon.com/free-icons/heating-and-cooling",
       "website": "www.aztecgrill.com"
     }
   ]
