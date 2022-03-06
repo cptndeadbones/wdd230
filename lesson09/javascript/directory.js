@@ -13,6 +13,8 @@ fetch(requestURL)
         let address = document.createElement('p');
         let image = document.createElement('img');
         let phone = document.createElement('p');
+        let website = document.createElement('p');
+
 
         image.setAttribute('src', business.image);
         image.setAttribute('alt', `${business.iconAlt}`);
@@ -23,6 +25,8 @@ fetch(requestURL)
         card.appendChild(phone);
         address.innerHTML = `Address: ${business.address}`;
         card.appendChild(address);
+        website.innerHTML = `${business.webstie}`;
+        card.appendChild(website);
 
 
         document.querySelector('div.bizcards').appendChild(card);
