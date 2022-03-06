@@ -24,7 +24,7 @@ fetch(requestURL)
         h2.innerHTML = `${business.name}`;
         card.appendChild(h2);
         phone.innerHTML = `Phone: ${business.phone}`;
-        phone.setAttribute('id', business.id);
+        phone.setAttribute('id', `${business.id}`)
         card.appendChild(phone);
         address.innerHTML = `Address: ${business.address}`;
         card.appendChild(address);
