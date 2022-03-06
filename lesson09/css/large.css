@@ -49,6 +49,7 @@
     grid-row-end: 4;
 }
 
+
 .main-content > .newsrelease {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -91,5 +92,40 @@ form {
     padding:1.5rem;
 }
 
+/***************************************************************************************
+Directory Business Cards
+***************************************************************************************/
+    .bizcards {
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
 
-}    
+    .bizcards section {
+        border-radius: 10px;
+    }
+
+    .bizcards section div img {
+        width:25%;
+        margin:auto; 
+    } 
+    
+    .bizcards section h2 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: center;
+        margin-bottom:0px;
+    }
+
+    .bizcards section p {
+        font-family: 'Didact Gothic', sans-serif;
+        margin:0px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+}

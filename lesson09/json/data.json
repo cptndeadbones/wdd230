@@ -4,6 +4,7 @@
       "name": "Aztec Grill",
       "address": "604 Nautical Drive, Lake Wylie, South Carolina, 29710",
       "phone": "(803) 831 - 8930",
+      "id": "aztecgrill",
       "image": "https://img.icons8.com/cotton/344/chichen-itza--v1.png",
       "iconAlt": "https://icons8.com/icons/set/aztec",
       "website": "www.aztecgrill.com"
@@ -12,6 +13,7 @@
       "name": "Carolina Selfies",
       "address": "168 HWY 274 #348, Lake Wylie, South Carolina, 29710",
       "phone": "(704) 222 - 0834",
+      "id": "carolinaselfies",
       "image": "https://cdn-icons-png.flaticon.com/512/2983/2983067.png",
       "iconAlt": "https://www.flaticon.com/free-icons/camera",
       "website": "www.carolinaselfies.com"
@@ -20,6 +22,7 @@
       "name": "Holley Water Sports",
       "address": "3990 Charlotte HWY, Lake Wylie, South Carolina, 29710",
       "phone": "(704) 591 - 5383",
+      "id": "holleywatersports",
       "image": "https://cdn-icons-png.flaticon.com/512/89/89129.png",
       "iconAlt": "https://www.flaticon.com/free-icons/boat",
       "website": "www.holleywatersports.com"
@@ -28,6 +31,7 @@
       "name": "Fox Electrical LLC",
       "address": "1668 Glenway Rd, Clover South Carolina, 29710",
       "phone": "(804) 972 - 4318",
+      "id": "foxelectrical",
       "image": "https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Filthy_FOx-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=fox&price=free",
       "website": "www.foxelectric.com"
@@ -36,6 +40,7 @@
       "name": "Steel Creek Animal Hospital",
       "address": "9729 S. Tryon St Charlotte NC 28273",
       "phone": "(704) 588 - 4400",
+      "id": "steelcreekanimalhospital",
       "image": "https://cdn1.iconfinder.com/data/icons/locations-redesign/48/Vets1-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=vet&price=free",
       "website": "www.steelcreekanimalhospital.com"
@@ -44,6 +49,7 @@
       "name": "Iron Gate Farm LLC",
       "address": "649 Bellegray Road Clover SC 29710",
       "phone": "(704) 214-7814",
+      "id": "irongatefarm",
       "image": "https://cdn3.iconfinder.com/data/icons/forall/1062/cono-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=construction&price=free",
       "website": "www.irongatefarm.com"
@@ -52,6 +58,7 @@
       "name": "Lakeside Barber School",
       "address": "4070 Charlotte Hwy Lake Wylie SC 29710",
       "phone": "(803) 656-5100",
+      "id": "lakesidebarberschool",
       "image": "https://cdn2.iconfinder.com/data/icons/beer-festival-2/64/mustache_hair_retro_facial_face_vintage_men-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=hair&price=free",
       "website": "www.lakesidebarberschool.com"
@@ -60,6 +67,7 @@
       "name": "Nail Palace",
       "address": "221 Latitude Lane, #103 Lake Wylie SC 29710",
       "phone": "(803) 831-0560",
+      "id": "nailpalace",
       "image": "https://cdn1.iconfinder.com/data/icons/photo-stickers-hats/128/hat_10-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=princess&price=free",
       "website": "www.nailpalace.com"
@@ -68,6 +76,7 @@
       "name": "Anytime Fitness Lake Wylie",
       "address": "125 Evergreen Road #109 Lake Wylie SC 29710",
       "phone": "(803) 831-1234",
+      "id": "anytimefitnesslakewylie",
       "image": "https://cdn2.iconfinder.com/data/icons/movie-59/60/running__actor__movie__film__making-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=running&price=free",
       "website": "www.anytimefitnesslakewylie.com"
@@ -76,6 +85,7 @@
       "name": "Lake Wylie Family Dentistry",
       "address": "1100 Village Harbor Drive Lake Wylie SC 29710",
       "phone": "(803) 831-8856",
+      "id": "lakewyliefamilydentistry",
       "image": "https://cdn-icons-png.flaticon.com/512/2818/2818366.png",
       "iconAlt": "https://www.flaticon.com/free-icons/dentist",
       "website": "www.lwfamilydentistry.com"
@@ -84,6 +94,7 @@
       "name": "Atrium Health",
       "address": "13460 Steelecroft Prkway Charlotte NC 28278",
       "phone": "(704) 637-0995",
+      "id": "atriumhealth",
       "image": "https://cdn-icons-png.flaticon.com/512/2791/2791163.png",
       "iconAlt": "https://www.flaticon.com/free-icons/health",
       "website": "www.atriumhealth.com"
@@ -92,6 +103,7 @@
       "name": "Comfort Systems of York County",
       "address": "5010 Old York Rd Rock Hill SC 29732",
       "phone": "(803) 324-7572",
+      "id": "comfortsystemsofyorkcounty",
       "image": "https://cdn4.iconfinder.com/data/icons/free-color-christmas-icons/24/Snowflake-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=snow&price=free",
       "website": "www.aztecgrill.com"

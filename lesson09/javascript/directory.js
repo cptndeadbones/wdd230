@@ -9,6 +9,7 @@ fetch(requestURL)
     const localBusiness = jsonObject['localBusiness'];
     localBusiness.forEach((business) => {
         let card = document.createElement('section');
+        let div = document.createElement('div');
         let h2 = document.createElement('h2');
         let address = document.createElement('p');
         let image = document.createElement('img');
@@ -18,14 +19,16 @@ fetch(requestURL)
 
         image.setAttribute('src', business.image);
         image.setAttribute('alt', `${business.iconAlt}`);
-        card.appendChild(image);
-        h2.innerHTML = `Name: ${business.name}`;
+        div.appendChild(image);
+        card.appendChild(div);
+        h2.innerHTML = `${business.name}`;
         card.appendChild(h2);
         phone.innerHTML = `Phone: ${business.phone}`;
+        phone.setAttribute('id', business.id);
         card.appendChild(phone);
         address.innerHTML = `Address: ${business.address}`;
         card.appendChild(address);
-        website.innerHTML = `${business.webstie}`;
+        website.innerHTML = `Website: ${business.website}`;
         card.appendChild(website);
 
 
