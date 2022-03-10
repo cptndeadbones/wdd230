@@ -1,0 +1,55 @@
+.title {
+    text-align: center;
+    width:60%;
+    color:#ffffff;
+    background-color:#bb0000;
+    margin:auto;
+    border-radius: 10px;
+    padding:5px; 
+}
+
+.title h1 {
+    margin:25px auto 0px auto;
+}
+.title h3 {
+    margin:0px 0px 25px 0px;
+}
+
+section img {
+    border-bottom-style: solid;
+    border-bottom-width:2px;
+    border-bottom-color:#000000;
+}
+
+.organize {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin:auto; 
+    padding:5px;
+}
+
+.desktop {
+    padding:5px;
+    width:auto;
+    margin:auto;
+}
+
+.tablet {
+    width:auto;
+    justify-content: center;
+    padding:5px;
+}
+
+.phone {
+    width:auto;
+    margin:auto;
+    padding:5px;
+}
+
+.phonelist {
+    width:auto;
+    margin:auto;
+    padding:5px;
+}

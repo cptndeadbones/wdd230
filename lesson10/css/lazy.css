@@ -1,0 +1,20 @@
+.titlesec {
+    text-align: center;
+    background-color:navy;
+    color:#ffffff;
+    padding:1.2rem;
+    margin:0px;
+}
+
+figure {
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    padding:1rem;
+    box-shadow: 1px 1px 8px #aaaaaa;
+}
+
+.content {
+    background-color:#000000;
+}
