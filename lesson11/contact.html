@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- Lake Wylie Home page -->
+        <title>Lake Wylie Chamber of Commerce</title>
+        <meta name="description" content="Chamber of Commerce Home">
+        
+        <!-- Font family imports from Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fira+Sans+Condensed&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        
+        <!-- Style sheets -->
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="/wdd230/lesson11/css/stylesheet.css">
+        <link rel="stylesheet" href="/wdd230/lesson11/css/large.css">
+        <link rel="stylesheet" href="/wdd230/lesson11/css/medium.css">
+        <link rel="stylesheet" href="/wdd230/lesson11/css/small.css">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/wdd230/images/favicon.png">
+    </head>
+
+    <header>
+    <!-- Special announcment to come to the weekly chamber meeting.--> 
+    <div class="pancakes syrup">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+
+
+<!--**************** Nav *************** -->
+        <nav>
+            <a href="/wdd230/lesson11/index.html"><img class="logo" src="/wdd230/images/lakewyliewebp.webp" alt="Lake Wylie Chamber of Commerce logo."></a>
+            <div class="tagline"><h1>Lake Wylie</h1>
+            <h4>Chamber of Commerce</h4></div>
+            <div class="mobile">
+                <a id="burger" onclick="toggleNavMenu()">☰</a>
+                <ul class="burger hide hover">
+                    <li><a href="/wdd230/lesson11/discover.html">Discover</a></li>
+                    <li><a href="/wdd230/lesson11/directory.html">Directory</a></li>
+                    <li><a href="/wdd230/lesson11/join.html">Join</a></li>
+                    <li><a href="/wdd230/lesson11/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="socialmenu">
+                <a class="social" href="https://www.facebook.com/"><img src="/wdd230/lesson04-chamber/images/facebook-logo.png" alt="Facebook logo."></a>
+                <a class="social" href="https://www.linkedin.com/jobs/"><img src="/wdd230/lesson04-chamber/images/linkedin-logo.png" alt="Linkedin logo."></a>
+            </div>
+        </nav>
+
+        <section class="date">
+            <p><span id="weekday"></span>, <span id="day"></span> <span id="month"></span> <span id="year"></span></p>
+        </section>
+    </header>
+
+    <body>
+        <main>
+           <div class="contactcontainer">
+                <section class="contact">
+                    <h1>Contact Us</h1>
+                    <h2>Lake Wylie Chamber of Commerce</h2>
+                    <p> 264 Latitude Ln Suite 101,</p>
+                    <p class="contactAddress">Lake Wylie, SC 29710</p>
+                </section>
+                <figure class="contactmap">
+                    <a href="https://www.google.com/maps/place/264+Latitude+Ln,+Clover,+SC+29710/@35.1197692,-81.0798373,17z/data=!4m5!3m4!1s0x885693d91e9f1147:0x41dba7f91f3a0388!8m2!3d35.1202857!4d-81.0784408"><img src="/wdd230/lesson10/images/cocmaplakewylie.PNG" alt="Map to the Lake Wyilie chamber of commerce location."></a>
+                </figure>    
+            </div>
+
+            <div class="contactmsg">
+                <p>"Come join us on Wednesdays at our weekly Chamber of Commerce meeting to help out the community."</p>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <section class="upperfooter">
+                <img src="/wdd230/images/lakewyliewebp.webp" alt="Lake at the base of a mountain with houses on the shoreline.">
+                <section class="address">
+                    <h3>Lake Wylie Chamber of Commerce</h3>
+                    <p>264 Latitude Ln Suite 101</p>
+                    <p>Lake Wylie, SC 29710</p>
+                </section>
+                <section class="email">
+                    <p>lakewyliechamber@yahoo.com</p>
+                    <a class="phone" href="tel:+8038312827">(803) 831-2827</a>
+                    <a href="https://www.google.com/maps/place/Lake+Wylie+Chamber+of+Commerce/@35.1202857,-81.0806295,17z/data=!3m1!4b1!4m5!3m4!1s0x8856910ee396a50d:0xd4410d2ac207622b!8m2!3d35.120269!4d-81.078384"><p>📍 Location Map</p></a>
+                </section>
+            </section>
+            <section class="footercopywright">
+                <span id="currentDate"></span>
+                <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a href="https://byui.instructure.com/">BYUI Online Learning</a></p>
+                <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p>
+            </section>
+        </footer>
+        <script src="/wdd230/lesson11/javascript/js.js"></script>
+        <script src="/wdd230/lesson11/javascript/announcment.js"></script>   
+    </body>
+
+</html>

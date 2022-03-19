@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- Lake Wylie join page -->
+        <title>Lake Wiley Chamber of Commerce</title>
+        <meta name="description" content="Join page">
+        
+        <!-- Font family imports from Google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fira+Sans+Condensed&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        
+        <!-- Style sheets -->
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/stylesheet.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/large.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/medium.css">
+        <link rel="stylesheet" href="/wdd230/lesson08/css/small.css">
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/wdd230/images/favicon.png">
+    </head>
+
+    <header>
+    <!-- Special announcment to come to the weekly chamber meeting.--> 
+    <div class="pancakes syrup">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+
+
+<!--**************** Nav *************** -->
+        <nav>
+            <a href="/wdd230/index.html"><img class="logo" src="/wdd230/images/lakewyliewebp.webp" alt="Lake Wylie Chamber of Commerce logo."></a>
+            <div class="tagline"><h1>Lake Wylie</h1>
+            <h4>Chamber of Commerce</h4></div>
+            <div class="mobile">
+                <a id="burger" onclick="toggleNavMenu()">☰</a>
+                <ul class="burger hide hover">
+                    <li><a href="/wdd230/lesson09/discover.html">Discover</a></li>
+                    <li><a href="/wdd230/lesson09/directory.html">Directory</a></li>
+                    <li><a href="/wdd230/lesson09/join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="socialmenu">
+                <a class="social" href="https://www.facebook.com/"><img src="/wdd230/lesson04-chamber/images/facebook-logo.png" alt="Facebook logo."></a>
+                <a class="social" href="https://www.linkedin.com/jobs/"><img src="/wdd230/lesson04-chamber/images/linkedin-logo.png" alt="Linkedin logo."></a>
+            </div>
+        </nav>
+
+        <section class="date">
+            <p><span id="weekday"></span>, <span id="day"></span> <span id="month"></span> <span id="year"></span></p>
+        </section>
+    </header>
+
+    <body>
+        <div class="thankyoumsg">
+            <h2>Thank you for signing up.</h2>
+            <p><b>Your membership will be processed shortly.</b></p>
+            <p>In the mean time check out our discover pages and see some of the other cool things to do in the Lake Wylie community.</p>
+            <a href="/wdd230/lesson08/discover.html" class="thankyou_redirect">Discover</a>
+        </div>
+
+
+
+        <footer class="footer">
+            <section class="upperfooter">
+                <img src="/wdd230/images/lakewyliewebp.webp" alt="Lake at the base of a mountain with houses on the shoreline.">
+                <section class="address">
+                    <h3>Lake Wylie Chamber of Commerce</h3>
+                    <p>264 Latitude Ln Suite 101</p>
+                    <p>Lake Wylie, SC 29710</p>
+                </section>
+                <section class="email">
+                    <p>lakewyliechamber@yahoo.com</p>
+                    <a class="phone" href="tel:+8038312827">(803) 831-2827</a>
+                    <a href="https://www.google.com/maps/place/Lake+Wylie+Chamber+of+Commerce/@35.1202857,-81.0806295,17z/data=!3m1!4b1!4m5!3m4!1s0x8856910ee396a50d:0xd4410d2ac207622b!8m2!3d35.120269!4d-81.078384"><p>📍 Location Map</p></a>
+                </section>
+            </section>
+            <section class="footercopywright">
+                <span id="currentDate"></span>
+                <p>&copy;<span id="currentYear"></span> | Joseph Alex Proksch | South Carolina | <a href="https://byui.instructure.com/">BYUI Online Learning</a></p>
+                <p class="yellowUpdate">Last Updated: <span id="lastUpdated"></span></p>
+            </section>
+        </footer>
+        <script src="/wdd230/lesson04-chamber/js/js.js"></script>
+        <script src="/wdd230/lesson05/js/announcment.js"></script>
+        <script src="/wdd230/lesson06/js/windchill.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,129 @@
+@media only screen and (max-width: 750px) {
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hide{
+        display: none;
+    }
+    
+    #burger {
+        cursor:pointer;
+        margin: auto;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap:10px;
+        width:100%;
+        margin: 20px auto 20px auto;
+    }
+
+    .main-content > .hero {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .main-content > .newsrelease {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end:2;
+    }
+
+    .main-content > .spotlight {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start:3;
+        grid-row-end: 3;
+    }
+
+    .spotlight {
+        display:flex;
+    }
+
+    .tabletview {
+        display:none;
+    }
+
+    .main-content > .join{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    .main-content > .event {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 5;
+    }
+    
+    .main-content > .weather {
+        grid-row-start: 5;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end:5;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    figcaption {
+        font-size: .8rem;
+        text-align:center;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    
+    img:hover {
+        box-shadow: 0px 0px 10px #B0D91E ;
+    
+    }
+    figure img {
+        width: 100%;
+    }
+
+    form {
+        margin:20px auto 20px auto;
+        width:50%;
+        background-color:#F1F2C9;
+        border-style: solid;
+        border-width:2px;
+        border-radius: 5px;
+        border-color:#888888;
+        padding:1.5rem;
+    }
+
+    .contactcontainer {
+        padding:3rem 3rem 0px 3rem;
+        display:block;
+    }
+
+    .contact {
+        text-align:center;
+    }
+
+    .contactmap {
+        width:80%;
+    }
+
+    .contactmap a img {
+        object-fit: cover;
+    }
+
+}
