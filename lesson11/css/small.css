@@ -166,4 +166,9 @@
         object-fit: cover;
     }
 
+    .memberships {
+        margin:auto; 
+        width:90%;
+    }
+
 }

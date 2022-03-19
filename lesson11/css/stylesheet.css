@@ -563,7 +563,6 @@ input:required {
     box-shadow:1px 1px 5px #000759;
 }
 
-
  /*********************************************************************************
 Thank you page
 *********************************************************************************/
@@ -762,4 +761,118 @@ Contact US
     width:80%;
     padding:.5rem; 
     border-radius:50%;
+}
+
+.wrapper {
+    display:flex;
+    width:80%;
+    margin:auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.memberships {
+    padding:20px; 
+    width:40%;
+    margin-left:0px;
+}
+
+.non-profit {
+    background-color:#FFFFD1;
+    padding:20px;
+    border-radius:20px;
+    border-color:#41590C;
+    border-width:1px;
+    border-style:solid;
+    margin:5px 0px 5px 0px;
+       
+}
+
+.non-profit h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    margin-bottom:0px;
+}
+
+.non-profit ul {
+    margin:0px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.gold {
+    background-color:#e6e6bc;
+    padding:20px;
+    border-radius:20px;
+    border-color:#41590C;
+    border-width:1px;
+    border-style:solid;
+    margin:5px 0px 5px 0px;
+      
+}
+
+.gold h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    margin-bottom:0px;
+}
+
+.gold ul {
+    margin:0px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.silver {
+    background-color:#FFFFD1;
+    padding:20px;
+    border-radius:20px;
+    border-color:#41590C;
+    border-width:1px;
+    border-style:solid;
+    margin:5px 0px 5px 0px;
+       
+}
+
+.silver h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    margin-bottom:0px;
+}
+
+.silver ul {
+    margin:0px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.bronze {
+    background-color:#e6e6bc;
+    padding:20px;
+    border-radius:20px;
+    border-color:#41590C;
+    border-width:1px;
+    border-style:solid;
+    margin:5px 0px 5px 0px;
+     
+}
+
+.bronze h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    margin-bottom:0px;
+}
+
+.bronze ul {
+    margin:0px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.Cost {
+    color:#00AA00;
+    text-shadow:3px 3px 5px #888888;
+    font-size:1.5rem;
+    margin:0px;
+}
+
+.description {
+    font-family: 'Didact Gothic', sans-serif;
 }

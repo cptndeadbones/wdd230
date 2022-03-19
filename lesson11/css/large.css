@@ -82,8 +82,8 @@ figure img {
 }
 
 form {
-    margin:20px auto 20px auto;
     width:35%;
+    margin:20px 20px 20px 20px;
     background-color:#F1F2C9;
     border-style: solid;
     border-width:2px;

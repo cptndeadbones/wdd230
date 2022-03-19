@@ -141,4 +141,13 @@
         object-fit: cover;
     }
 
+    .wrapper {
+        display:flex;
+        flex-direction: column; 
+    }
+
+    .memberships {
+        margin:auto; 
+        width:60%;
+    }
 }
