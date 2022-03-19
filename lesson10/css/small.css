@@ -129,4 +129,21 @@
         padding:1.5rem;
     }
 
+    .contactcontainer {
+        padding:3rem 3rem 0px 3rem;
+        display:block;
+    }
+
+    .contact {
+        text-align:center;
+    }
+
+    .contactmap {
+        width:80%;
+    }
+
+    .contactmap a img {
+        object-fit: cover;
+    }
+
 }

@@ -683,3 +683,64 @@ Directory cards
 #comfortsystemsofyorkcounty {
     color:blue;
 }
+
+
+/*******************************************************************************************************************************************************
+Contact US
+*******************************************************************************************************************************************************/
+.contactcontainer {
+    padding:3rem 3rem 0px 3rem;
+    display:flex;
+    flex-direction: row;
+}
+
+.contact {
+    padding:3rem;
+    margin:auto;
+}
+
+.contact h1 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 4rem;
+    margin-bottom:2rem;
+    width:100%; 
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color:gold;
+    padding-top:3rem; 
+}
+
+.contact h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin:0px;
+}
+
+.contact p {
+    margin:0px;
+}
+
+.contactAddress {
+    padding-bottom:2rem;
+    width:100%; 
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+    border-bottom-color:gold;
+} 
+
+.contactmap {
+    width:40%;
+    margin:auto;
+    border-color:gold;
+    border-width:2px;
+    border-style:solid;
+    border-radius:15px;
+}
+
+.contactmsg {
+    text-align: center;
+    margin: 2rem auto 3rem auto;
+    background:linear-gradient(135deg, #EDF25E, #F1F2C9); 
+    width:80%;
+    padding:.5rem; 
+    border-radius:50%;
+}
