@@ -626,6 +626,22 @@ Directory cards
     padding-left:50px;
 }
 
+.listType {
+    text-align:center;
+}
+
+.businessIcon {
+    font-size: 24px;
+    padding:10px;
+    margin:5px; 
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: #FF850D;
+} 
+
 .bizcards {
     padding:20px;
 }
@@ -634,6 +650,10 @@ Directory cards
     background-color: #ffffff;
     width:90%;
     box-shadow: 5px 5px 10px #000000;
+}
+
+.bizcards section div {
+    display:grid; 
 }
 
 #aztecgrill {
