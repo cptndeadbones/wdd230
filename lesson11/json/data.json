@@ -7,7 +7,8 @@
       "id": "aztecgrill",
       "image": "https://img.icons8.com/cotton/344/chichen-itza--v1.png",
       "iconAlt": "https://icons8.com/icons/set/aztec",
-      "website": "www.aztecgrill.com"
+      "website": "www.aztecgrill.com",
+      "membership": "Bronze"
     },
     {
       "name": "Carolina Selfies",
@@ -16,7 +17,8 @@
       "id": "carolinaselfies",
       "image": "https://cdn-icons-png.flaticon.com/512/2983/2983067.png",
       "iconAlt": "https://www.flaticon.com/free-icons/camera",
-      "website": "www.carolinaselfies.com"
+      "website": "www.carolinaselfies.com",
+      "membership": "Bronze"
     },
     {
       "name": "Holley Water Sports",
@@ -25,7 +27,8 @@
       "id": "holleywatersports",
       "image": "https://cdn-icons-png.flaticon.com/512/89/89129.png",
       "iconAlt": "https://www.flaticon.com/free-icons/boat",
-      "website": "www.holleywatersports.com"
+      "website": "www.holleywatersports.com",
+      "membership": "Gold"
     },
     {
       "name": "Fox Electrical LLC",
@@ -34,7 +37,8 @@
       "id": "foxelectrical",
       "image": "https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Filthy_FOx-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=fox&price=free",
-      "website": "www.foxelectric.com"
+      "website": "www.foxelectric.com",
+      "membership": "Silver"
     },
     {
       "name": "Steel Creek Animal Hospital",
@@ -43,7 +47,8 @@
       "id": "steelcreekanimalhospital",
       "image": "https://cdn1.iconfinder.com/data/icons/locations-redesign/48/Vets1-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=vet&price=free",
-      "website": "www.steelcreekanimalhospital.com"
+      "website": "www.steelcreekanimalhospital.com",
+      "membership": "Non-profit"
     },
     {
       "name": "Iron Gate Farm LLC",
@@ -52,7 +57,8 @@
       "id": "irongatefarm",
       "image": "https://cdn3.iconfinder.com/data/icons/forall/1062/cono-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=construction&price=free",
-      "website": "www.irongatefarm.com"
+      "website": "www.irongatefarm.com",
+      "membership": "Silver"
     },
     {
       "name": "Lakeside Barber School",
@@ -61,7 +67,8 @@
       "id": "lakesidebarberschool",
       "image": "https://cdn2.iconfinder.com/data/icons/beer-festival-2/64/mustache_hair_retro_facial_face_vintage_men-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=hair&price=free",
-      "website": "www.lakesidebarberschool.com"
+      "website": "www.lakesidebarberschool.com",
+      "membership": "Bronze"
     },
     {
       "name": "Nail Palace",
@@ -70,7 +77,8 @@
       "id": "nailpalace",
       "image": "https://cdn1.iconfinder.com/data/icons/photo-stickers-hats/128/hat_10-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=princess&price=free",
-      "website": "www.nailpalace.com"
+      "website": "www.nailpalace.com",
+      "membership": "Gold"
     },
     {
       "name": "Anytime Fitness Lake Wylie",
@@ -79,7 +87,8 @@
       "id": "anytimefitnesslakewylie",
       "image": "https://cdn2.iconfinder.com/data/icons/movie-59/60/running__actor__movie__film__making-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=running&price=free",
-      "website": "www.anytimefitnesslakewylie.com"
+      "website": "www.anytimefitnesslakewylie.com",
+      "membership": "Gold"
     },
     {
       "name": "Lake Wylie Family Dentistry",
@@ -88,7 +97,8 @@
       "id": "lakewyliefamilydentistry",
       "image": "https://cdn-icons-png.flaticon.com/512/2818/2818366.png",
       "iconAlt": "https://www.flaticon.com/free-icons/dentist",
-      "website": "www.lwfamilydentistry.com"
+      "website": "www.lwfamilydentistry.com",
+      "membership": "Gold"
     },
     {
       "name": "Atrium Health",
@@ -97,7 +107,8 @@
       "id": "atriumhealth",
       "image": "https://cdn-icons-png.flaticon.com/512/2791/2791163.png",
       "iconAlt": "https://www.flaticon.com/free-icons/health",
-      "website": "www.atriumhealth.com"
+      "website": "www.atriumhealth.com",
+      "membership": "Non-profit"
     },
     {
       "name": "Comfort Systems of York County",
@@ -106,7 +117,8 @@
       "id": "comfortsystemsofyorkcounty",
       "image": "https://cdn4.iconfinder.com/data/icons/free-color-christmas-icons/24/Snowflake-256.png",
       "iconAlt": "https://www.iconfinder.com/search?q=snow&price=free",
-      "website": "www.aztecgrill.com"
+      "website": "www.aztecgrill.com",
+      "membership": "Silver"
     }
   ]
 }
