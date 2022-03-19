@@ -36,6 +36,20 @@
         grid-row-end: 1;
     }
 
+    .calltoaction {
+        font-family: 'Didact Gothic', sans-serif;
+        padding:10px;
+        border-radius: 20px;
+        background-color: #77A612;
+        color:#EDF25E;
+        font-size: 1.1rem;     
+        border-style: none;
+        bottom:0px; 
+        transition:bottom ease .8s; 
+        position:relative;
+        right:0px;
+    }
+
     .main-content > .newsrelease {
         grid-column-start: 1;
         grid-column-end: 5;
@@ -64,6 +78,7 @@
         grid-row-start: 4;
         grid-row-end: 4;
     }
+
     .main-content > .event {
         grid-column-start: 1;
         grid-column-end: 4;

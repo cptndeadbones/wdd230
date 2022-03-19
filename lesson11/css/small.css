@@ -19,7 +19,7 @@
     .logo {
         margin:auto;
     }
-    
+
     .main-content{
         display: grid;
         grid-template-columns: 1fr;
@@ -36,11 +36,19 @@
         grid-row-end: 1;
     }
 
+    .hero {
+        margin: auto;
+    }
+
     .main-content > .event {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 2;
         grid-row-end: 2;
+    }
+
+    .event {
+        margin:auto;
     }
 
     .main-content > .weather {
@@ -50,11 +58,19 @@
         grid-column-end:1;
     }
 
+    .weather {
+        margin:auto;
+    }
+
     .main-content > .newsrelease {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 4;
         grid-row-end: 4;
+    }
+
+    .newsrelease {
+        margin: auto;
     }
 
     .main-content > .spotlight {
@@ -63,6 +79,10 @@
         grid-row-start: 5;
         grid-row-end: 5;
         flex-direction: column;
+    }
+
+    .spotlight {
+        margin: auto;
     }
 
     .main-content > .join{
