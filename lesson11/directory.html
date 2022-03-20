@@ -57,15 +57,15 @@
     <body>
         <h1 id="directory">Business Directory</h1>
         <div class="listType">
-            <button id="businessListView" class="businessIcon">
+            <button id="businessListView" class="businessIcon selected" onclick="togglelist()">
                 <i class="fa fa-list-ul"></i>
             </button>
-            <button id="businessCardView" class="businessIcon selected">
+            <button id="businessCardView" class="businessIcon selected" onclick="togglecards()">
                 <i class="fa fa-th"></i>
             </button>
         </div>
-        <div class="bizcards"></div>
-        <div class="bizlist"></div>
+        <div class="bizcards" id="bcards"></div>
+        <div class="bizlist" id="blist"></div>
 
         <footer class="footer">
             <section class="upperfooter">

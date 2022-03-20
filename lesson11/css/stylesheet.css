@@ -702,6 +702,40 @@ Directory cards
     color:blue;
 }
 
+.bizlist {
+    margin:20px 0px 20px 0px;
+}
+
+.bizlist div:nth-child(even) {
+    background-color: #e6e6bc;
+}
+
+.bizlist div:nth-child(odd) {
+    background-color: #dddd99;
+}
+
+.bizlist div {
+    margin:auto;
+    width:80%;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style:solid;
+    border-color:black;
+    border-width:1px; 
+}
+
+.bizlist div h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.bizlist div p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
 
 /*******************************************************************************************************************************************************
 Contact US
