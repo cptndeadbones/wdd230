@@ -33,5 +33,10 @@ fetch(requestURL)
 
 
         document.querySelector('div.bizcards').appendChild(card);
+      
+        //creating business directory list format.
+        //let list = documnet.createElement('span');
+
+      
       });
 });
