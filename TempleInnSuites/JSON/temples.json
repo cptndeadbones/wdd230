@@ -1,86 +1,55 @@
 {
     "temples": [
         {
-        "pic":"wdd230\TempleInnSuites\images\columbia_temple_lds.jpeg",
+        "pic": "wdd230/TempleInnSuites/images/columbia_temple_lds.jpeg",
         "name": "Columbia South Carolina",
         "tel": "(1) 803-647-9472",
-        "address": "2905 Trotter Rd
-        Hopkins SC 29061-9573
-        United States",
+        "address": "2905 Trotter Rd Hopkins SC 29061-9573 United States",
         "email": "columbiatemple@lds.org",
-        "services": "No clothing rental available
-        No cafeteria available
-        No patron housing available
-        Distribution center nearby",
+        "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
         "ordinance schedule": "N/A",
-        "temple closures": "Monday, 11 July 2022 - Monday, 25 July 2022
-        Saturday, 1 October 2022
-        Thursday, 24 November 2022
-        Saturday, 24 December 2022"
+        "temple closures": "Monday, 11 July 2022 - Monday, 25 July 2022, Saturday, 1 October 2022, Thursday, 24 November 2022, Saturday, 24 December 2022"
         },
         {
-        "pic":"wdd230\TempleInnSuites\images\lasvegastemple.jpg",
+        "pic":"wdd230/TempleInnSuites/images/lasvegastemple.jpg",
         "name": "Las Vegas Nevada",
         "tel": "(1) 702-452-5011",
-        "address": "827 Temple View Dr
-        Las Vegas NV 89110-2920
-        United States",
+        "address": "827 Temple View Dr Las Vegas NV 89110-2920 United States",
         "email": "lasvegastemple@lds.org",
-        "services": "Clothing rental available
-        No cafeteria available
-        No patron housing available
-        Distribution center nearby",
+        "services": "Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
         "ordinance schedule": "N/A",
-        "temple closures": "Monday, 11 July 2022 - Monday, 25 July 2022
-        Saturday, 1 October 2022
-        Wednesday, 23 November 2022 - Thursday, 24 November 2022
-        Saturday, 24 December 2022"
+        "temple closures": "Monday, 11 July 2022 - Monday, 25 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 - Thursday, 24 November 2022 Saturday, 24 December 2022"
         },
 
         {
-        "pic":"wdd230\TempleInnSuites\images\saltlaketemple.jpg",
+        "pic":"wdd230/TempleInnSuites/images/saltlaketemple.jpg",
         "name": "Salt Lake City",
         "tel": "Temple Closed for Renovations",
-        "address": "50 W North Temple St
-        Salt Lake City UT 84150-9709
-        United States",
+        "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
         "email": "Temple Closed for Renovations",
         "services": "Temple Closed for Renovations",
         "ordinance schedule": "Temple Closed for Renovations",
         "temple closures": "Currently closed for renovations."
         },
         {
-        "pic":"wdd230\TempleInnSuites\images\dcTemple.jpg",
+        "pic":"wdd230/TempleInnSuites/images/dcTemple.jpg",
         "name": "Washington D.C.",
         "tel": "N/A",
-        "address": "9900 Stoneybrook Dr
-        Kensington MD 20895-3199
-        United States",
+        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
         "email": "N/A",
         "services": "N/A",
         "ordinance schedule": "April 28 2022 open house.",
         "temple closures": "Currently closed for renovations."
         },
         {
-        "pic":"wdd230\TempleInnSuites\images\oaklandtemple.jpeg",
+        "pic":"wdd230/TempleInnSuites/images/oaklandtemple.jpeg",
         "name": "Oakland California",
         "tel": "(1) 510-531-3200",
-        "address": "4770 Lincoln Ave
-        Oakland CA 94602-2535
-        United States",
+        "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
         "email": "N/A",
-        "services": "Clothing rental available
-        No cafeteria available
-        Patron housing available
-        Distribution center nearby",
+        "services": "Clothing rental available No cafeteria available Patron housing available Distribution center nearby",
         "ordinance schedule": "N/A",
-        "temple closures": "Monday, 5 September 2022 - Monday, 19 September 2022
-        Saturday, 1 October 2022
-        Wednesday, 23 November 2022 (Limited Operations)
-        Thursday, 24 November 2022
-        Saturday, 24 December 2022
-        Saturday, 31 December 2022
-        Additional Informati"
+        "temple closures": "Monday, 5 September 2022 - Monday, 19 September 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022 Additional Information"
         }
 
     ]
